@@ -1,0 +1,14 @@
+exit_code: 1
+left_time: null
+lunapark_id: null
+lunapark_url: null
+status_code: FINISHED
+tank_msg: "Exception occurred:\n<class 'RuntimeError'>: Config check failed. Subprocess\
+  \ returned code 1. Stderr: b\"config error: address is required\\n\\tin the object\
+  \ stream_method\\n\\tin the object benchmark_io\\n\\tat the '/var/loadtest/logs/2024-06-28_09-00-55.980544/phantom_h0km0sqc.conf'\
+  \ 76,2\\n\"\n  File \"/usr/local/lib/python3.8/dist-packages/yandextank/core/tankworker.py\"\
+  , line 72, in run\n    self.core.plugins_prepare_test()\n\n  File \"/usr/local/lib/python3.8/dist-packages/yandextank/core/tankcore.py\"\
+  , line 273, in plugins_prepare_test\n    plugin.prepare_test()\n\n  File \"/usr/local/lib/python3.8/dist-packages/yandextank/plugins/Phantom/plugin.py\"\
+  , line 107, in prepare_test\n    raise RuntimeError(\"Config check failed. Subprocess\
+  \ returned code %s. Stderr: %s\" % (retcode, stderr))\n"
+test_id: 2024-06-28_09-00-55.980544

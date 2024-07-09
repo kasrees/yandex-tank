@@ -1,0 +1,33 @@
+Генерация ammo
+https://ru.stackoverflow.com/questions/1036759/%D0%9A%D0%B0%D0%BA-%D1%8F%D0%BD%D0%B4%D0%B5%D0%BA%D1%81-%D1%82%D0%B0%D0%BD%D0%BA%D0%BE%D0%BC-%D0%BE%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D1%8F%D1%82%D1%8C-json-%D0%B2-post-%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81%D0%B5
+
+
+
+сгенерировать 1 ammo для запроса в KC
+
+
+POST||/auth/token||||grant_type=client_credentials&client_id=broni_travel&client_secret=mLGoVWmEp8iXJxawhGDWQ5KLDzvZXcFw
+
+
+800 длительный тест
+
+Запрос к одной гостинице на авторизацию. Кейс с api_connections
+
+
+
+
+"GET||/resources/available-properties||||" | python makeAmmo.py > loadtest/ammo.txt
+
+
+docker run -v ${pwd}:/var/loadtest -v ${SSH_AUTH_SOCK}:/ssh-agent -e SSH_AUTH_SOCK=/ssh-agent --net host -it yandex/yandex-tank -c load.yaml ammo.txt
+
+
+права на qa KC
+права на qa Zabbix
+
+
+Нагрузка дб кейклок
+
+
+
+!!!!пам получение партнеров, тоже имеет ограничение???? !!!!

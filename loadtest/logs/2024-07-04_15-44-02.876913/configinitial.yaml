@@ -1,0 +1,57 @@
+autostop:
+  enabled: true
+  package: yandextank.plugins.Autostop
+bfg:
+  enabled: false
+  package: yandextank.plugins.Bfg
+console:
+  enabled: true
+  package: yandextank.plugins.Console
+core: {}
+influx:
+  enabled: false
+  package: yandextank.plugins.InfluxUploader
+jmeter:
+  enabled: false
+  package: yandextank.plugins.JMeter
+json_report:
+  enabled: true
+  package: yandextank.plugins.JsonReport
+metaconf:
+  enabled: false
+  package: yandextank.plugins.MetaConf
+offline_report:
+  enabled: false
+  package: yandextank.plugins.OfflineReport
+opentsdb:
+  enabled: false
+  package: yandextank.plugins.OpenTSDBUploader
+overload:
+  enabled: true
+  package: yandextank.plugins.DataUploader
+  token_file: token.txt
+pandora:
+  enabled: false
+  package: yandextank.plugins.Pandora
+phantom:
+  address: host.docker.internal:5000
+  ammo_type: phantom
+  enabled: true
+  load_profile:
+    load_type: rps
+    schedule: line(10, 45, 1m)
+  package: yandextank.plugins.Phantom
+  timeout: 20s
+  writelog: all
+rcassert:
+  enabled: true
+  package: yandextank.plugins.RCAssert
+rcheck:
+  enabled: true
+  package: yandextank.plugins.ResourceCheck
+shellexec:
+  enabled: true
+  package: yandextank.plugins.ShellExec
+telegraf:
+  enabled: false
+  package: yandextank.plugins.Telegraf

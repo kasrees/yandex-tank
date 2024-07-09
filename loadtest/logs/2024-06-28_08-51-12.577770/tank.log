@@ -1,0 +1,60 @@
+2024-06-28 08:51:12,632 [INFO] root tankworker.py:153	Log file created
+2024-06-28 08:51:12,632 [INFO] root tankworker.py:157	Logging handler <FileHandler /var/loadtest/tank_errors.log (WARNING)> added
+2024-06-28 08:51:12,632 [INFO] root tankworker.py:157	Logging handler <StreamHandler <stdout> (INFO)> added
+2024-06-28 08:51:12,633 [INFO] root tankworker.py:157	Logging handler <StreamHandler <stderr> (NOTSET)> added
+2024-06-28 08:51:12,643 [INFO] root tankworker.py:69	Created a folder for the test. /var/loadtest/logs/2024-06-28_08-51-12.577770
+2024-06-28 08:51:12,645 [INFO] yandextank.core.tankcore tankcore.py:254	Configuring plugins...
+2024-06-28 08:51:12,645 [INFO] yandextank.core.tankcore tankcore.py:205	Loading plugins...
+2024-06-28 08:51:12,645 [INFO] yandextank.core.tankcore tankcore.py:215	Trying to import module: autostop
+2024-06-28 08:51:12,646 [INFO] yandextank.core.tankcore tankcore.py:216	Path: yandextank.plugins.Autostop
+2024-06-28 08:51:12,647 [INFO] yandextank.core.tankcore tankcore.py:215	Trying to import module: console
+2024-06-28 08:51:12,647 [INFO] yandextank.core.tankcore tankcore.py:216	Path: yandextank.plugins.Console
+2024-06-28 08:51:12,648 [INFO] yandextank.core.tankcore tankcore.py:215	Trying to import module: json_report
+2024-06-28 08:51:12,648 [INFO] yandextank.core.tankcore tankcore.py:216	Path: yandextank.plugins.JsonReport
+2024-06-28 08:51:12,651 [INFO] yandextank.core.tankcore tankcore.py:215	Trying to import module: phantom
+2024-06-28 08:51:12,652 [INFO] yandextank.core.tankcore tankcore.py:216	Path: yandextank.plugins.Phantom
+2024-06-28 08:51:12,652 [INFO] yandextank.core.tankcore tankcore.py:215	Trying to import module: rcheck
+2024-06-28 08:51:12,652 [INFO] yandextank.core.tankcore tankcore.py:216	Path: yandextank.plugins.ResourceCheck
+2024-06-28 08:51:12,653 [INFO] yandextank.core.tankcore tankcore.py:215	Trying to import module: shellexec
+2024-06-28 08:51:12,653 [INFO] yandextank.core.tankcore tankcore.py:216	Path: yandextank.plugins.ShellExec
+2024-06-28 08:51:12,653 [INFO] yandextank.core.tankcore tankcore.py:215	Trying to import module: rcassert
+2024-06-28 08:51:12,654 [INFO] yandextank.core.tankcore tankcore.py:216	Path: yandextank.plugins.RCAssert
+2024-06-28 08:51:12,654 [INFO] yandextank.core.tankcore tankcore.py:215	Trying to import module: overload
+2024-06-28 08:51:12,654 [INFO] yandextank.core.tankcore tankcore.py:216	Path: yandextank.plugins.DataUploader
+2024-06-28 08:51:13,690 [INFO] yandextank.common.util util.py:578	Testing connection to resolved address 0.0.0.0 and port 5000
+2024-06-28 08:51:13,691 [INFO] yandextank.common.util util.py:581	Failed TCP connection test using [0.0.0.0]:5000
+2024-06-28 08:51:13,691 [INFO] yandextank.common.util util.py:578	Testing connection to resolved address 0.0.0.0 and port 5000
+2024-06-28 08:51:13,691 [INFO] yandextank.common.util util.py:581	Failed TCP connection test using [0.0.0.0]:5000
+2024-06-28 08:51:13,692 [INFO] yandextank.common.util util.py:578	Testing connection to resolved address 0.0.0.0 and port 5000
+2024-06-28 08:51:13,692 [INFO] yandextank.common.util util.py:581	Failed TCP connection test using [0.0.0.0]:5000
+2024-06-28 08:51:13,693 [ERROR] yandextank.common.util util.py:815	Exception occurred:
+<class 'RuntimeError'>: All connection attempts failed for 0.0.0.0, use {phantom.connection_test: false} to disable it
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/core/tankworker.py", line 70, in run
+    self.core.plugins_configure()
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/core/tankcore.py", line 262, in plugins_configure
+    plugin.configure()
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/plugins/Phantom/plugin.py", line 67, in configure
+    self.phantom_config = self.phantom.config_file
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/plugins/Phantom/plugin.py", line 76, in phantom
+    self._phantom.read_config()
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/plugins/Phantom/utils.py", line 95, in read_config
+    stream.read_config()
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/plugins/Phantom/utils.py", line 274, in read_config
+    self.ipv6, self.resolved_ip, self.port, self.address = self.address_wizard.resolve(
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/common/util.py", line 587, in resolve
+    raise RuntimeError(msg % address_str)
+
+2024-06-28 08:51:13,694 [INFO] yandextank.common.util util.py:816	Trying to clean up
+2024-06-28 08:51:13,694 [INFO] yandextank.core.tankcore tankcore.py:630	Releasing lock: /var/lock/lunapark_n14w3q1r.lock
+2024-06-28 08:51:13,700 [INFO] yandextank.core.tankcore tankcore.py:405	Artifacts dir: /var/loadtest/logs/2024-06-28_08-51-12.577770
+2024-06-28 08:51:13,701 [INFO] yandextank.core.tankcore tankcore.py:461	File not found to collect: validation_error.yaml
+2024-06-28 08:51:13,703 [INFO] yandextank.core.tankcore tankcore.py:466	File already exists: /var/loadtest/logs/2024-06-28_08-51-12.577770/answ_g5y4cfmw.log
+2024-06-28 08:51:13,704 [INFO] yandextank.core.tankcore tankcore.py:466	File already exists: /var/loadtest/logs/2024-06-28_08-51-12.577770/phout_od00g56i.log
+2024-06-28 08:51:13,706 [INFO] yandextank.core.tankcore tankcore.py:466	File already exists: /var/loadtest/logs/2024-06-28_08-51-12.577770/phantom_stat_x8als_cu.log
+2024-06-28 08:51:13,707 [INFO] yandextank.core.tankcore tankcore.py:466	File already exists: /var/loadtest/logs/2024-06-28_08-51-12.577770/phantom_n0sogezu.log

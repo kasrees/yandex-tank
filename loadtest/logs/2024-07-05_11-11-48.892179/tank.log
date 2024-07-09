@@ -1,0 +1,89 @@
+2024-07-05 11:11:48,942 [INFO] root tankworker.py:153	Log file created
+2024-07-05 11:11:48,943 [INFO] root tankworker.py:157	Logging handler <FileHandler /var/loadtest/tank_errors.log (WARNING)> added
+2024-07-05 11:11:48,943 [INFO] root tankworker.py:157	Logging handler <StreamHandler <stdout> (INFO)> added
+2024-07-05 11:11:48,943 [INFO] root tankworker.py:157	Logging handler <StreamHandler <stderr> (NOTSET)> added
+2024-07-05 11:11:48,953 [INFO] root tankworker.py:69	Created a folder for the test. /var/loadtest/logs/2024-07-05_11-11-48.892179
+2024-07-05 11:11:48,955 [INFO] yandextank.core.tankcore tankcore.py:254	Configuring plugins...
+2024-07-05 11:11:48,955 [INFO] yandextank.core.tankcore tankcore.py:205	Loading plugins...
+2024-07-05 11:11:48,955 [INFO] yandextank.core.tankcore tankcore.py:215	Trying to import module: autostop
+2024-07-05 11:11:48,956 [INFO] yandextank.core.tankcore tankcore.py:216	Path: yandextank.plugins.Autostop
+2024-07-05 11:11:48,956 [INFO] yandextank.core.tankcore tankcore.py:215	Trying to import module: console
+2024-07-05 11:11:48,957 [INFO] yandextank.core.tankcore tankcore.py:216	Path: yandextank.plugins.Console
+2024-07-05 11:11:48,957 [INFO] yandextank.core.tankcore tankcore.py:215	Trying to import module: json_report
+2024-07-05 11:11:48,958 [INFO] yandextank.core.tankcore tankcore.py:216	Path: yandextank.plugins.JsonReport
+2024-07-05 11:11:48,960 [INFO] yandextank.core.tankcore tankcore.py:215	Trying to import module: phantom
+2024-07-05 11:11:48,961 [INFO] yandextank.core.tankcore tankcore.py:216	Path: yandextank.plugins.Phantom
+2024-07-05 11:11:48,961 [INFO] yandextank.core.tankcore tankcore.py:215	Trying to import module: rcheck
+2024-07-05 11:11:48,961 [INFO] yandextank.core.tankcore tankcore.py:216	Path: yandextank.plugins.ResourceCheck
+2024-07-05 11:11:48,962 [INFO] yandextank.core.tankcore tankcore.py:215	Trying to import module: shellexec
+2024-07-05 11:11:48,962 [INFO] yandextank.core.tankcore tankcore.py:216	Path: yandextank.plugins.ShellExec
+2024-07-05 11:11:48,962 [INFO] yandextank.core.tankcore tankcore.py:215	Trying to import module: rcassert
+2024-07-05 11:11:48,962 [INFO] yandextank.core.tankcore tankcore.py:216	Path: yandextank.plugins.RCAssert
+2024-07-05 11:11:48,963 [INFO] yandextank.core.tankcore tankcore.py:215	Trying to import module: overload
+2024-07-05 11:11:48,963 [INFO] yandextank.core.tankcore tankcore.py:216	Path: yandextank.plugins.DataUploader
+2024-07-05 11:11:49,991 [INFO] yandextank.common.util util.py:578	Testing connection to resolved address ::1 and port 5000
+2024-07-05 11:11:49,992 [INFO] yandextank.common.util util.py:581	Failed TCP connection test using [::1]:5000
+2024-07-05 11:11:49,993 [INFO] yandextank.common.util util.py:578	Testing connection to resolved address ::1 and port 5000
+2024-07-05 11:11:49,993 [INFO] yandextank.common.util util.py:581	Failed TCP connection test using [::1]:5000
+2024-07-05 11:11:49,993 [INFO] yandextank.common.util util.py:578	Testing connection to resolved address ::1 and port 5000
+2024-07-05 11:11:49,994 [INFO] yandextank.common.util util.py:581	Failed TCP connection test using [::1]:5000
+2024-07-05 11:11:49,994 [INFO] yandextank.common.util util.py:578	Testing connection to resolved address 127.0.0.1 and port 5000
+2024-07-05 11:11:49,996 [INFO] yandextank.plugins.Phantom.utils utils.py:277	Resolved localhost into 127.0.0.1:5000
+2024-07-05 11:11:49,996 [INFO] yandextank.stepper.main main.py:197	Configuring StepperWrapper...
+2024-07-05 11:11:49,998 [INFO] yandextank.stepper.main main.py:336	Making stpd-file: /var/loadtest/ammo.stpd
+2024-07-05 11:11:50,001 [INFO] yandextank.stepper.config config.py:76	Default ammo type ('phantom') used, use 'phantom.ammo_type' option to override it
+2024-07-05 11:11:50,004 [INFO] yandextank.stepper.config config.py:76	Default ammo type ('phantom') used, use 'phantom.ammo_type' option to override it
+2024-07-05 11:11:50,005 [INFO] yandextank.stepper.missile missile.py:95	Loading ammo from 'ammo.txt'
+2024-07-05 11:11:50,005 [INFO] yandextank.stepper.config config.py:126	Using AmmoFileReader ammo reader
+2024-07-05 11:11:50,011 [ERROR] yandextank.common.util util.py:815	Exception occurred:
+<class 'yandextank.stepper.module_exceptions.AmmoFileError'>: Unexpected end of file: read 0 bytes instead of 1039
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/core/tankworker.py", line 70, in run
+    self.core.plugins_configure()
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/core/tankcore.py", line 262, in plugins_configure
+    plugin.configure()
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/plugins/Phantom/plugin.py", line 67, in configure
+    self.phantom_config = self.phantom.config_file
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/plugins/Phantom/utils.py", line 106, in config_file
+    self._config_file = self.compose_config()
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/plugins/Phantom/utils.py", line 114, in compose_config
+    streams_config += stream.compose_config()
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/plugins/Phantom/utils.py", line 288, in compose_config
+    self.stepper_wrapper.prepare_stepper()
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/stepper/main.py", line 264, in prepare_stepper
+    self.__make_stpd_file()
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/stepper/main.py", line 354, in __make_stpd_file
+    stepper.write(os)
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/stepper/main.py", line 64, in write
+    for missile in self.ammo:
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/stepper/format.py", line 18, in __iter__
+    for timestamp, marker, missile in self.af:
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/stepper/main.py", line 50, in <genexpr>
+    return ((timestamp, marker or self.marker(missile), missile)
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/stepper/main.py", line 44, in <genexpr>
+    ammo_stream = (
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/stepper/main.py", line 46, in <genexpr>
+    for ammo in ((missile, marker or self.marker(missile))
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/stepper/missile.py", line 132, in __iter__
+    raise AmmoFileError(
+
+2024-07-05 11:11:50,011 [INFO] yandextank.common.util util.py:816	Trying to clean up
+2024-07-05 11:11:50,012 [INFO] yandextank.core.tankcore tankcore.py:630	Releasing lock: /var/lock/lunapark_hl3it4p7.lock
+2024-07-05 11:11:50,020 [INFO] yandextank.core.tankcore tankcore.py:405	Artifacts dir: /var/loadtest/logs/2024-07-05_11-11-48.892179
+2024-07-05 11:11:50,021 [INFO] yandextank.core.tankcore tankcore.py:461	File not found to collect: validation_error.yaml
+2024-07-05 11:11:50,022 [INFO] yandextank.core.tankcore tankcore.py:466	File already exists: /var/loadtest/logs/2024-07-05_11-11-48.892179/answ_q11d5fq2.log
+2024-07-05 11:11:50,025 [INFO] yandextank.core.tankcore tankcore.py:466	File already exists: /var/loadtest/logs/2024-07-05_11-11-48.892179/phout_wkmsr6j2.log
+2024-07-05 11:11:50,027 [INFO] yandextank.core.tankcore tankcore.py:466	File already exists: /var/loadtest/logs/2024-07-05_11-11-48.892179/phantom_stat_tb5im93_.log
+2024-07-05 11:11:50,029 [INFO] yandextank.core.tankcore tankcore.py:466	File already exists: /var/loadtest/logs/2024-07-05_11-11-48.892179/phantom__pkryp05.log

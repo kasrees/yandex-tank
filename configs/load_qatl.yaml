@@ -1,0 +1,17 @@
+overload:
+  enabled: true
+  package: yandextank.plugins.DataUploader
+  token_file: "token.txt"
+phantom:
+  address: partner.qatl.ru # [Target's address]:[target's port]
+  port: "443"
+  ssl: true
+  ammo_type: phantom
+  writelog: all
+  load_profile:
+    load_type: rps # schedule load by defining requests per second
+    schedule: line(1, 10, 3m) # starting from 1rps growing linearly to 10rps during 10 minutes
+console:
+  enabled: true # enable console output
+telegraf:
+  enabled: false # let's disable telegraf monitoring for the first time

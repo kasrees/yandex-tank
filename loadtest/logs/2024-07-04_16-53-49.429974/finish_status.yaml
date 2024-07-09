@@ -1,0 +1,15 @@
+exit_code: 1
+left_time: null
+lunapark_id: 712838
+lunapark_url: https://overload.yandex.net/712838
+status_code: FINISHED
+tank_msg: "Exception occurred:\n<class 'KeyboardInterrupt'>: \n  File \"/usr/local/lib/python3.8/dist-packages/yandextank/core/tankworker.py\"\
+  , line 80, in run\n    self._msgs.extend(self.core.errors)\n\n  File \"/usr/local/lib/python3.8/dist-packages/yandextank/common/util.py\"\
+  , line 849, in __exit__\n    retcode = self.worker.core.plugins_end_test(retcode)\n\
+  \n  File \"/usr/local/lib/python3.8/dist-packages/yandextank/core/tankcore.py\"\
+  , line 335, in plugins_end_test\n    retcode = self.job.aggregator.end_test(retcode)\n\
+  \n  File \"/usr/local/lib/python3.8/dist-packages/yandextank/aggregator/tank_aggregator.py\"\
+  , line 130, in end_test\n    self.drain.join()\n\n  File \"/usr/lib/python3.8/threading.py\"\
+  , line 1011, in join\n    self._wait_for_tstate_lock()\n\n  File \"/usr/lib/python3.8/threading.py\"\
+  , line 1027, in _wait_for_tstate_lock\n    elif lock.acquire(block, timeout):\n"
+test_id: 2024-07-04_16-53-49.429974

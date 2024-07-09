@@ -1,0 +1,29 @@
+exit_code: 1
+left_time: null
+lunapark_id: null
+lunapark_url: null
+status_code: FINISHED
+tank_msg: "Exception occurred:\n<class 'yandextank.stepper.module_exceptions.AmmoFileError'>:\
+  \ Unexpected end of file: read 1025 bytes instead of 1029\n  File \"/usr/local/lib/python3.8/dist-packages/yandextank/core/tankworker.py\"\
+  , line 70, in run\n    self.core.plugins_configure()\n\n  File \"/usr/local/lib/python3.8/dist-packages/yandextank/core/tankcore.py\"\
+  , line 262, in plugins_configure\n    plugin.configure()\n\n  File \"/usr/local/lib/python3.8/dist-packages/yandextank/plugins/Phantom/plugin.py\"\
+  , line 67, in configure\n    self.phantom_config = self.phantom.config_file\n\n\
+  \  File \"/usr/local/lib/python3.8/dist-packages/yandextank/plugins/Phantom/utils.py\"\
+  , line 106, in config_file\n    self._config_file = self.compose_config()\n\n  File\
+  \ \"/usr/local/lib/python3.8/dist-packages/yandextank/plugins/Phantom/utils.py\"\
+  , line 114, in compose_config\n    streams_config += stream.compose_config()\n\n\
+  \  File \"/usr/local/lib/python3.8/dist-packages/yandextank/plugins/Phantom/utils.py\"\
+  , line 288, in compose_config\n    self.stepper_wrapper.prepare_stepper()\n\n  File\
+  \ \"/usr/local/lib/python3.8/dist-packages/yandextank/stepper/main.py\", line 264,\
+  \ in prepare_stepper\n    self.__make_stpd_file()\n\n  File \"/usr/local/lib/python3.8/dist-packages/yandextank/stepper/main.py\"\
+  , line 354, in __make_stpd_file\n    stepper.write(os)\n\n  File \"/usr/local/lib/python3.8/dist-packages/yandextank/stepper/main.py\"\
+  , line 64, in write\n    for missile in self.ammo:\n\n  File \"/usr/local/lib/python3.8/dist-packages/yandextank/stepper/format.py\"\
+  , line 18, in __iter__\n    for timestamp, marker, missile in self.af:\n\n  File\
+  \ \"/usr/local/lib/python3.8/dist-packages/yandextank/stepper/main.py\", line 50,\
+  \ in <genexpr>\n    return ((timestamp, marker or self.marker(missile), missile)\n\
+  \n  File \"/usr/local/lib/python3.8/dist-packages/yandextank/stepper/main.py\",\
+  \ line 44, in <genexpr>\n    ammo_stream = (\n\n  File \"/usr/local/lib/python3.8/dist-packages/yandextank/stepper/main.py\"\
+  , line 46, in <genexpr>\n    for ammo in ((missile, marker or self.marker(missile))\n\
+  \n  File \"/usr/local/lib/python3.8/dist-packages/yandextank/stepper/missile.py\"\
+  , line 132, in __iter__\n    raise AmmoFileError(\n"
+test_id: 2024-07-05_12-15-49.109910

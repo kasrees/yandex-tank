@@ -1,0 +1,2280 @@
+"2024-07-05 09:01:14.581 +0000" : {
+  "main_scheduler" : {
+    "bqs" : {
+      "00044" : {
+        "mmconts" : [0, 13, 15],
+        "acts" : [148, 147],
+        "tstate" : { "idle" : 1000579, "run" : 3800, "locked" : 1959, "mmap" : 40 }
+      },
+      "00045" : {
+        "mmconts" : [0, 12, 15],
+        "acts" : [3, 2],
+        "tstate" : { "idle" : 983925, "run" : 20505, "locked" : 1312, "mmap" : 542 }
+      },
+      "00046" : {
+        "mmconts" : [0, 13, 15],
+        "acts" : [144, 143],
+        "tstate" : { "idle" : 1000484, "run" : 1103, "locked" : 892, "mmap" : 3765 }
+      },
+      "00047" : {
+        "mmconts" : [0, 13, 15],
+        "acts" : [145, 144],
+        "tstate" : { "idle" : 1004150, "run" : 1412, "locked" : 7, "mmap" : 636 }
+      },
+      "00048" : {
+        "mmconts" : [0, 13, 15],
+        "acts" : [145, 144],
+        "tstate" : { "idle" : 1003371, "run" : 2118, "locked" : 0, "mmap" : 679 }
+      },
+      "00049" : {
+        "mmconts" : [0, 12, 14],
+        "acts" : [143, 142],
+        "tstate" : { "idle" : 1000160, "run" : 2298, "locked" : 1452, "mmap" : 2215 }
+      },
+      "00050" : {
+        "mmconts" : [0, 12, 14],
+        "acts" : [143, 142],
+        "tstate" : { "idle" : 1000985, "run" : 1119, "locked" : 4312, "mmap" : 6 }
+      }
+    }
+  },
+  "benchmark_io" : {
+    "simple_times" : {
+      "mcount" : {
+        "mcount" : { "69 -- 117" : 1, "2 -- 4" : 1 }
+      }
+    },
+    "stream_method" : {
+      "conns" : [2, 1],
+      "in" : [428, 424],
+      "out" : [2078, 2061],
+      "mmtasks" : [0, 0, 1],
+      "load" : 0.004,
+      "mcount" : {
+        "mcount" : { "Success" : 2 }
+      },
+      "http_proto0" : {
+        "mcount" : {
+          "mcount" : { "Unauthorized" : 2 }
+        }
+      },
+      "source_log" : {
+        "delta" : [0, 0, 5367]
+      },
+      "loggers" : {
+        "brief_logger" : {
+          "records" : [2, 1],
+          "out" : [118, 116]
+        },
+        "benchmark_logger" : {
+          "records" : [2, 1],
+          "out" : [2554, 2527]
+        }
+      }
+    }
+  }
+},
+"2024-07-05 09:01:15.581 +0000" : {
+  "main_scheduler" : {
+    "bqs" : {
+      "00044" : {
+        "mmconts" : [13, 13, 13],
+        "acts" : [1, 0],
+        "tstate" : { "idle" : 999374, "run" : 668, "locked" : 0, "mmap" : 0 }
+      },
+      "00045" : {
+        "mmconts" : [13, 13, 13],
+        "acts" : [0, 0],
+        "tstate" : { "idle" : 999608, "run" : 434, "locked" : 0, "mmap" : 0 }
+      },
+      "00046" : {
+        "mmconts" : [14, 14, 14],
+        "acts" : [2, 1],
+        "tstate" : { "idle" : 998570, "run" : 1472, "locked" : 0, "mmap" : 0 }
+      },
+      "00047" : {
+        "mmconts" : [14, 14, 14],
+        "acts" : [1, 0],
+        "tstate" : { "idle" : 998944, "run" : 1097, "locked" : 0, "mmap" : 0 }
+      },
+      "00048" : {
+        "mmconts" : [14, 14, 14],
+        "acts" : [1, 0],
+        "tstate" : { "idle" : 999266, "run" : 775, "locked" : 0, "mmap" : 0 }
+      },
+      "00049" : {
+        "mmconts" : [12, 12, 13],
+        "acts" : [3, 2],
+        "tstate" : { "idle" : 997626, "run" : 2415, "locked" : 0, "mmap" : 0 }
+      },
+      "00050" : {
+        "mmconts" : [13, 13, 13],
+        "acts" : [0, 0],
+        "tstate" : { "idle" : 999194, "run" : 673, "locked" : 0, "mmap" : 0 }
+      }
+    }
+  },
+  "benchmark_io" : {
+    "simple_times" : {
+      "mcount" : {
+        "mcount" : { "8 -- 14" : 1 }
+      }
+    },
+    "stream_method" : {
+      "conns" : [1, 1],
+      "in" : [214, 214],
+      "out" : [1039, 1039],
+      "mmtasks" : [0, 0, 1],
+      "load" : 0.058,
+      "mcount" : {
+        "mcount" : { "Success" : 1 }
+      },
+      "http_proto0" : {
+        "mcount" : {
+          "mcount" : { "Unauthorized" : 1 }
+        }
+      },
+      "source_log" : {
+        "delta" : [0, 0, 0]
+      },
+      "loggers" : {
+        "brief_logger" : {
+          "records" : [1, 1],
+          "out" : [60, 60]
+        },
+        "benchmark_logger" : {
+          "records" : [1, 1],
+          "out" : [1278, 1278]
+        }
+      }
+    }
+  }
+},
+"2024-07-05 09:01:16.582 +0000" : {
+  "main_scheduler" : {
+    "bqs" : {
+      "00044" : {
+        "mmconts" : [13, 13, 13],
+        "acts" : [1, 0],
+        "tstate" : { "idle" : 999252, "run" : 1035, "locked" : 0, "mmap" : 0 }
+      },
+      "00045" : {
+        "mmconts" : [13, 13, 13],
+        "acts" : [0, 0],
+        "tstate" : { "idle" : 999636, "run" : 652, "locked" : 0, "mmap" : 0 }
+      },
+      "00046" : {
+        "mmconts" : [14, 14, 14],
+        "acts" : [2, 1],
+        "tstate" : { "idle" : 998716, "run" : 1573, "locked" : 0, "mmap" : 0 }
+      },
+      "00047" : {
+        "mmconts" : [14, 14, 14],
+        "acts" : [1, 0],
+        "tstate" : { "idle" : 999084, "run" : 1206, "locked" : 0, "mmap" : 0 }
+      },
+      "00048" : {
+        "mmconts" : [14, 14, 14],
+        "acts" : [1, 0],
+        "tstate" : { "idle" : 999240, "run" : 1050, "locked" : 0, "mmap" : 0 }
+      },
+      "00049" : {
+        "mmconts" : [12, 12, 12],
+        "acts" : [0, 0],
+        "tstate" : { "idle" : 999692, "run" : 599, "locked" : 0, "mmap" : 0 }
+      },
+      "00050" : {
+        "mmconts" : [12, 12, 13],
+        "acts" : [3, 2],
+        "tstate" : { "idle" : 998684, "run" : 1921, "locked" : 0, "mmap" : 0 }
+      }
+    }
+  },
+  "benchmark_io" : {
+    "simple_times" : {
+      "mcount" : {
+        "mcount" : { "4 -- 8" : 1 }
+      }
+    },
+    "stream_method" : {
+      "conns" : [1, 0],
+      "in" : [214, 213],
+      "out" : [1039, 1038],
+      "mmtasks" : [0, 0, 1],
+      "load" : 0.034,
+      "mcount" : {
+        "mcount" : { "Success" : 1 }
+      },
+      "http_proto0" : {
+        "mcount" : {
+          "mcount" : { "Unauthorized" : 1 }
+        }
+      },
+      "source_log" : {
+        "delta" : [0, 0, 0]
+      },
+      "loggers" : {
+        "brief_logger" : {
+          "records" : [1, 0],
+          "out" : [57, 56]
+        },
+        "benchmark_logger" : {
+          "records" : [1, 0],
+          "out" : [1276, 1275]
+        }
+      }
+    }
+  }
+},
+"2024-07-05 09:01:17.581 +0000" : {
+  "main_scheduler" : {
+    "bqs" : {
+      "00044" : {
+        "mmconts" : [13, 13, 13],
+        "acts" : [1, 1],
+        "tstate" : { "idle" : 997238, "run" : 1725, "locked" : 0, "mmap" : 0 }
+      },
+      "00045" : {
+        "mmconts" : [13, 13, 13],
+        "acts" : [0, 0],
+        "tstate" : { "idle" : 998293, "run" : 674, "locked" : 0, "mmap" : 0 }
+      },
+      "00046" : {
+        "mmconts" : [14, 14, 14],
+        "acts" : [2, 2],
+        "tstate" : { "idle" : 996344, "run" : 2625, "locked" : 0, "mmap" : 0 }
+      },
+      "00047" : {
+        "mmconts" : [13, 13, 14],
+        "acts" : [4, 4],
+        "tstate" : { "idle" : 995205, "run" : 3766, "locked" : 0, "mmap" : 0 }
+      },
+      "00048" : {
+        "mmconts" : [14, 14, 14],
+        "acts" : [1, 1],
+        "tstate" : { "idle" : 998094, "run" : 879, "locked" : 0, "mmap" : 0 }
+      },
+      "00049" : {
+        "mmconts" : [12, 12, 12],
+        "acts" : [0, 0],
+        "tstate" : { "idle" : 998387, "run" : 587, "locked" : 0, "mmap" : 0 }
+      },
+      "00050" : {
+        "mmconts" : [12, 12, 12],
+        "acts" : [0, 0],
+        "tstate" : { "idle" : 998564, "run" : 715, "locked" : 0, "mmap" : 0 }
+      }
+    }
+  },
+  "benchmark_io" : {
+    "simple_times" : {
+      "mcount" : {
+        "mcount" : { "8 -- 14" : 1 }
+      }
+    },
+    "stream_method" : {
+      "conns" : [1, 1],
+      "in" : [214, 214],
+      "out" : [1039, 1039],
+      "mmtasks" : [0, 0, 1],
+      "load" : 0.083,
+      "mcount" : {
+        "mcount" : { "Success" : 1 }
+      },
+      "http_proto0" : {
+        "mcount" : {
+          "mcount" : { "Unauthorized" : 1 }
+        }
+      },
+      "source_log" : {
+        "delta" : [0, 0, 0]
+      },
+      "loggers" : {
+        "brief_logger" : {
+          "records" : [1, 1],
+          "out" : [59, 59]
+        },
+        "benchmark_logger" : {
+          "records" : [1, 1],
+          "out" : [1277, 1277]
+        }
+      }
+    }
+  }
+},
+"2024-07-05 09:01:18.581 +0000" : {
+  "main_scheduler" : {
+    "bqs" : {
+      "00044" : {
+        "mmconts" : [13, 13, 13],
+        "acts" : [0, 0],
+        "tstate" : { "idle" : 1000163, "run" : 643, "locked" : 0, "mmap" : 0 }
+      },
+      "00045" : {
+        "mmconts" : [13, 13, 13],
+        "acts" : [0, 0],
+        "tstate" : { "idle" : 1000035, "run" : 772, "locked" : 0, "mmap" : 0 }
+      },
+      "00046" : {
+        "mmconts" : [14, 14, 14],
+        "acts" : [2, 1],
+        "tstate" : { "idle" : 996733, "run" : 4073, "locked" : 0, "mmap" : 0 }
+      },
+      "00047" : {
+        "mmconts" : [13, 13, 13],
+        "acts" : [0, 0],
+        "tstate" : { "idle" : 1000070, "run" : 737, "locked" : 0, "mmap" : 0 }
+      },
+      "00048" : {
+        "mmconts" : [13, 13, 14],
+        "acts" : [3, 2],
+        "tstate" : { "idle" : 998423, "run" : 2384, "locked" : 0, "mmap" : 0 }
+      },
+      "00049" : {
+        "mmconts" : [12, 12, 12],
+        "acts" : [0, 0],
+        "tstate" : { "idle" : 1000082, "run" : 726, "locked" : 0, "mmap" : 0 }
+      },
+      "00050" : {
+        "mmconts" : [12, 12, 12],
+        "acts" : [0, 0],
+        "tstate" : { "idle" : 1000298, "run" : 681, "locked" : 0, "mmap" : 0 }
+      }
+    }
+  },
+  "benchmark_io" : {
+    "simple_times" : {
+      "mcount" : {
+        "mcount" : { "2 -- 4" : 1 }
+      }
+    },
+    "stream_method" : {
+      "conns" : [1, 0],
+      "in" : [214, 213],
+      "out" : [1039, 1037],
+      "mmtasks" : [0, 0, 1],
+      "load" : 0.046,
+      "mcount" : {
+        "mcount" : { "Success" : 1 }
+      },
+      "http_proto0" : {
+        "mcount" : {
+          "mcount" : { "Unauthorized" : 1 }
+        }
+      },
+      "source_log" : {
+        "delta" : [0, 0, 0]
+      },
+      "loggers" : {
+        "brief_logger" : {
+          "records" : [1, 0],
+          "out" : [57, 56]
+        },
+        "benchmark_logger" : {
+          "records" : [1, 0],
+          "out" : [1276, 1274]
+        }
+      }
+    }
+  }
+},
+"2024-07-05 09:01:19.581 +0000" : {
+  "main_scheduler" : {
+    "bqs" : {
+      "00044" : {
+        "mmconts" : [13, 13, 13],
+        "acts" : [1, 1],
+        "tstate" : { "idle" : 997696, "run" : 1732, "locked" : 0, "mmap" : 0 }
+      },
+      "00045" : {
+        "mmconts" : [13, 13, 13],
+        "acts" : [0, 0],
+        "tstate" : { "idle" : 998644, "run" : 784, "locked" : 0, "mmap" : 0 }
+      },
+      "00046" : {
+        "mmconts" : [14, 14, 14],
+        "acts" : [2, 2],
+        "tstate" : { "idle" : 994979, "run" : 4450, "locked" : 0, "mmap" : 0 }
+      },
+      "00047" : {
+        "mmconts" : [13, 13, 13],
+        "acts" : [1, 1],
+        "tstate" : { "idle" : 997441, "run" : 1987, "locked" : 0, "mmap" : 0 }
+      },
+      "00048" : {
+        "mmconts" : [13, 13, 13],
+        "acts" : [1, 1],
+        "tstate" : { "idle" : 997363, "run" : 2065, "locked" : 0, "mmap" : 0 }
+      },
+      "00049" : {
+        "mmconts" : [11, 11, 12],
+        "acts" : [3, 3],
+        "tstate" : { "idle" : 997978, "run" : 1449, "locked" : 0, "mmap" : 0 }
+      },
+      "00050" : {
+        "mmconts" : [12, 12, 12],
+        "acts" : [0, 0],
+        "tstate" : { "idle" : 998345, "run" : 999, "locked" : 0, "mmap" : 0 }
+      }
+    }
+  },
+  "benchmark_io" : {
+    "simple_times" : {
+      "mcount" : {
+        "mcount" : { "2 -- 4" : 1 }
+      }
+    },
+    "stream_method" : {
+      "conns" : [1, 1],
+      "in" : [214, 214],
+      "out" : [1039, 1039],
+      "mmtasks" : [0, 0, 1],
+      "load" : 0.039,
+      "mcount" : {
+        "mcount" : { "Success" : 1 }
+      },
+      "http_proto0" : {
+        "mcount" : {
+          "mcount" : { "Unauthorized" : 1 }
+        }
+      },
+      "source_log" : {
+        "delta" : [0, 0, 0]
+      },
+      "loggers" : {
+        "brief_logger" : {
+          "records" : [1, 1],
+          "out" : [57, 57]
+        },
+        "benchmark_logger" : {
+          "records" : [1, 1],
+          "out" : [1276, 1276]
+        }
+      }
+    }
+  }
+},
+"2024-07-05 09:01:20.581 +0000" : {
+  "main_scheduler" : {
+    "bqs" : {
+      "00044" : {
+        "mmconts" : [13, 13, 13],
+        "acts" : [1, 1],
+        "tstate" : { "idle" : 998212, "run" : 1679, "locked" : 0, "mmap" : 0 }
+      },
+      "00045" : {
+        "mmconts" : [13, 13, 13],
+        "acts" : [0, 0],
+        "tstate" : { "idle" : 999164, "run" : 721, "locked" : 0, "mmap" : 0 }
+      },
+      "00046" : {
+        "mmconts" : [14, 14, 14],
+        "acts" : [2, 2],
+        "tstate" : { "idle" : 995154, "run" : 4728, "locked" : 0, "mmap" : 0 }
+      },
+      "00047" : {
+        "mmconts" : [13, 13, 13],
+        "acts" : [1, 1],
+        "tstate" : { "idle" : 997995, "run" : 1885, "locked" : 0, "mmap" : 0 }
+      },
+      "00048" : {
+        "mmconts" : [13, 13, 13],
+        "acts" : [1, 1],
+        "tstate" : { "idle" : 998182, "run" : 1696, "locked" : 0, "mmap" : 0 }
+      },
+      "00049" : {
+        "mmconts" : [11, 11, 11],
+        "acts" : [0, 0],
+        "tstate" : { "idle" : 998999, "run" : 877, "locked" : 0, "mmap" : 0 }
+      },
+      "00050" : {
+        "mmconts" : [11, 11, 12],
+        "acts" : [3, 3],
+        "tstate" : { "idle" : 997445, "run" : 1924, "locked" : 0, "mmap" : 0 }
+      }
+    }
+  },
+  "benchmark_io" : {
+    "simple_times" : {
+      "mcount" : {
+        "mcount" : { "4 -- 8" : 1 }
+      }
+    },
+    "stream_method" : {
+      "conns" : [1, 1],
+      "in" : [214, 214],
+      "out" : [1039, 1039],
+      "mmtasks" : [0, 0, 1],
+      "load" : 0.040,
+      "mcount" : {
+        "mcount" : { "Success" : 1 }
+      },
+      "http_proto0" : {
+        "mcount" : {
+          "mcount" : { "Unauthorized" : 1 }
+        }
+      },
+      "source_log" : {
+        "delta" : [0, 0, 0]
+      },
+      "loggers" : {
+        "brief_logger" : {
+          "records" : [1, 1],
+          "out" : [57, 57]
+        },
+        "benchmark_logger" : {
+          "records" : [1, 1],
+          "out" : [1276, 1276]
+        }
+      }
+    }
+  }
+},
+"2024-07-05 09:01:21.581 +0000" : {
+  "main_scheduler" : {
+    "bqs" : {
+      "00044" : {
+        "mmconts" : [13, 13, 13],
+        "acts" : [1, 0],
+        "tstate" : { "idle" : 999482, "run" : 992, "locked" : 0, "mmap" : 0 }
+      },
+      "00045" : {
+        "mmconts" : [12, 12, 13],
+        "acts" : [3, 2],
+        "tstate" : { "idle" : 998038, "run" : 2439, "locked" : 0, "mmap" : 0 }
+      },
+      "00046" : {
+        "mmconts" : [14, 14, 14],
+        "acts" : [2, 1],
+        "tstate" : { "idle" : 998454, "run" : 2024, "locked" : 0, "mmap" : 0 }
+      },
+      "00047" : {
+        "mmconts" : [13, 13, 13],
+        "acts" : [1, 0],
+        "tstate" : { "idle" : 999400, "run" : 1079, "locked" : 0, "mmap" : 0 }
+      },
+      "00048" : {
+        "mmconts" : [13, 13, 13],
+        "acts" : [1, 0],
+        "tstate" : { "idle" : 999527, "run" : 953, "locked" : 0, "mmap" : 0 }
+      },
+      "00049" : {
+        "mmconts" : [11, 11, 11],
+        "acts" : [0, 0],
+        "tstate" : { "idle" : 999711, "run" : 770, "locked" : 0, "mmap" : 0 }
+      },
+      "00050" : {
+        "mmconts" : [11, 11, 11],
+        "acts" : [0, 0],
+        "tstate" : { "idle" : 999918, "run" : 756, "locked" : 0, "mmap" : 0 }
+      }
+    }
+  },
+  "benchmark_io" : {
+    "simple_times" : {
+      "mcount" : {
+        "mcount" : { "8 -- 14" : 1 }
+      }
+    },
+    "stream_method" : {
+      "conns" : [1, 0],
+      "in" : [214, 213],
+      "out" : [1039, 1038],
+      "mmtasks" : [0, 0, 1],
+      "load" : 0.039,
+      "mcount" : {
+        "mcount" : { "Success" : 1 }
+      },
+      "http_proto0" : {
+        "mcount" : {
+          "mcount" : { "Unauthorized" : 1 }
+        }
+      },
+      "source_log" : {
+        "delta" : [0, 0, 0]
+      },
+      "loggers" : {
+        "brief_logger" : {
+          "records" : [1, 0],
+          "out" : [60, 59]
+        },
+        "benchmark_logger" : {
+          "records" : [1, 0],
+          "out" : [1278, 1277]
+        }
+      }
+    }
+  }
+},
+"2024-07-05 09:01:22.581 +0000" : {
+  "main_scheduler" : {
+    "bqs" : {
+      "00044" : {
+        "mmconts" : [12, 12, 13],
+        "acts" : [4, 3],
+        "tstate" : { "idle" : 996940, "run" : 3081, "locked" : 0, "mmap" : 0 }
+      },
+      "00045" : {
+        "mmconts" : [12, 12, 12],
+        "acts" : [0, 0],
+        "tstate" : { "idle" : 999328, "run" : 692, "locked" : 0, "mmap" : 0 }
+      },
+      "00046" : {
+        "mmconts" : [14, 14, 14],
+        "acts" : [2, 1],
+        "tstate" : { "idle" : 996913, "run" : 3107, "locked" : 0, "mmap" : 0 }
+      },
+      "00047" : {
+        "mmconts" : [13, 13, 13],
+        "acts" : [1, 0],
+        "tstate" : { "idle" : 998546, "run" : 1475, "locked" : 0, "mmap" : 0 }
+      },
+      "00048" : {
+        "mmconts" : [13, 13, 13],
+        "acts" : [1, 0],
+        "tstate" : { "idle" : 998667, "run" : 1354, "locked" : 0, "mmap" : 0 }
+      },
+      "00049" : {
+        "mmconts" : [11, 11, 11],
+        "acts" : [0, 0],
+        "tstate" : { "idle" : 999219, "run" : 802, "locked" : 0, "mmap" : 0 }
+      },
+      "00050" : {
+        "mmconts" : [11, 11, 11],
+        "acts" : [0, 0],
+        "tstate" : { "idle" : 999270, "run" : 824, "locked" : 0, "mmap" : 0 }
+      }
+    }
+  },
+  "benchmark_io" : {
+    "simple_times" : {
+      "mcount" : {
+        "mcount" : { "8 -- 14" : 1 }
+      }
+    },
+    "stream_method" : {
+      "conns" : [1, 0],
+      "in" : [214, 213],
+      "out" : [1039, 1038],
+      "mmtasks" : [0, 0, 1],
+      "load" : 0.039,
+      "mcount" : {
+        "mcount" : { "Success" : 1 }
+      },
+      "http_proto0" : {
+        "mcount" : {
+          "mcount" : { "Unauthorized" : 1 }
+        }
+      },
+      "source_log" : {
+        "delta" : [0, 0, 0]
+      },
+      "loggers" : {
+        "brief_logger" : {
+          "records" : [1, 0],
+          "out" : [57, 56]
+        },
+        "benchmark_logger" : {
+          "records" : [1, 0],
+          "out" : [1276, 1275]
+        }
+      }
+    }
+  }
+},
+"2024-07-05 09:01:23.582 +0000" : {
+  "main_scheduler" : {
+    "bqs" : {
+      "00044" : {
+        "mmconts" : [12, 12, 12],
+        "acts" : [1, 0],
+        "tstate" : { "idle" : 999156, "run" : 1354, "locked" : 0, "mmap" : 0 }
+      },
+      "00045" : {
+        "mmconts" : [12, 12, 12],
+        "acts" : [0, 0],
+        "tstate" : { "idle" : 999842, "run" : 669, "locked" : 0, "mmap" : 0 }
+      },
+      "00046" : {
+        "mmconts" : [13, 13, 14],
+        "acts" : [5, 4],
+        "tstate" : { "idle" : 996764, "run" : 3748, "locked" : 0, "mmap" : 0 }
+      },
+      "00047" : {
+        "mmconts" : [13, 13, 13],
+        "acts" : [1, 0],
+        "tstate" : { "idle" : 998910, "run" : 1601, "locked" : 0, "mmap" : 0 }
+      },
+      "00048" : {
+        "mmconts" : [13, 13, 13],
+        "acts" : [1, 0],
+        "tstate" : { "idle" : 999208, "run" : 1303, "locked" : 0, "mmap" : 0 }
+      },
+      "00049" : {
+        "mmconts" : [11, 11, 11],
+        "acts" : [0, 0],
+        "tstate" : { "idle" : 999683, "run" : 828, "locked" : 0, "mmap" : 0 }
+      },
+      "00050" : {
+        "mmconts" : [11, 11, 11],
+        "acts" : [0, 0],
+        "tstate" : { "idle" : 999664, "run" : 785, "locked" : 0, "mmap" : 0 }
+      }
+    }
+  },
+  "benchmark_io" : {
+    "simple_times" : {
+      "mcount" : {
+        "mcount" : { "2 -- 4" : 1 }
+      }
+    },
+    "stream_method" : {
+      "conns" : [1, 0],
+      "in" : [214, 213],
+      "out" : [1039, 1038],
+      "mmtasks" : [0, 0, 1],
+      "load" : 0.038,
+      "mcount" : {
+        "mcount" : { "Success" : 1 }
+      },
+      "http_proto0" : {
+        "mcount" : {
+          "mcount" : { "Unauthorized" : 1 }
+        }
+      },
+      "source_log" : {
+        "delta" : [0, 0, 0]
+      },
+      "loggers" : {
+        "brief_logger" : {
+          "records" : [1, 0],
+          "out" : [57, 56]
+        },
+        "benchmark_logger" : {
+          "records" : [1, 0],
+          "out" : [1276, 1275]
+        }
+      }
+    }
+  }
+},
+"2024-07-05 09:01:24.581 +0000" : {
+  "main_scheduler" : {
+    "bqs" : {
+      "00044" : {
+        "mmconts" : [12, 12, 12],
+        "acts" : [1, 1],
+        "tstate" : { "idle" : 998230, "run" : 1136, "locked" : 0, "mmap" : 0 }
+      },
+      "00045" : {
+        "mmconts" : [12, 12, 12],
+        "acts" : [0, 0],
+        "tstate" : { "idle" : 998779, "run" : 584, "locked" : 0, "mmap" : 0 }
+      },
+      "00046" : {
+        "mmconts" : [13, 13, 13],
+        "acts" : [2, 2],
+        "tstate" : { "idle" : 996511, "run" : 2850, "locked" : 0, "mmap" : 0 }
+      },
+      "00047" : {
+        "mmconts" : [12, 12, 13],
+        "acts" : [4, 4],
+        "tstate" : { "idle" : 996197, "run" : 3163, "locked" : 0, "mmap" : 0 }
+      },
+      "00048" : {
+        "mmconts" : [12, 12, 13],
+        "acts" : [4, 4],
+        "tstate" : { "idle" : 997176, "run" : 2182, "locked" : 0, "mmap" : 0 }
+      },
+      "00049" : {
+        "mmconts" : [11, 11, 11],
+        "acts" : [0, 0],
+        "tstate" : { "idle" : 998728, "run" : 629, "locked" : 0, "mmap" : 0 }
+      },
+      "00050" : {
+        "mmconts" : [11, 11, 11],
+        "acts" : [0, 0],
+        "tstate" : { "idle" : 998449, "run" : 553, "locked" : 0, "mmap" : 0 }
+      }
+    }
+  },
+  "benchmark_io" : {
+    "simple_times" : {
+      "mcount" : {
+        "mcount" : { "8 -- 14" : 1, "4 -- 8" : 1 }
+      }
+    },
+    "stream_method" : {
+      "conns" : [2, 2],
+      "in" : [428, 428],
+      "out" : [2078, 2080],
+      "mmtasks" : [0, 0, 1],
+      "load" : 0.028,
+      "mcount" : {
+        "mcount" : { "Success" : 2 }
+      },
+      "http_proto0" : {
+        "mcount" : {
+          "mcount" : { "Unauthorized" : 2 }
+        }
+      },
+      "source_log" : {
+        "delta" : [0, 0, 0]
+      },
+      "loggers" : {
+        "brief_logger" : {
+          "records" : [2, 2],
+          "out" : [116, 116]
+        },
+        "benchmark_logger" : {
+          "records" : [2, 2],
+          "out" : [2554, 2556]
+        }
+      }
+    }
+  }
+},
+"2024-07-05 09:01:25.582 +0000" : {
+  "main_scheduler" : {
+    "bqs" : {
+      "00044" : {
+        "mmconts" : [12, 12, 12],
+        "acts" : [1, 0],
+        "tstate" : { "idle" : 999701, "run" : 933, "locked" : 0, "mmap" : 0 }
+      },
+      "00045" : {
+        "mmconts" : [12, 12, 12],
+        "acts" : [0, 0],
+        "tstate" : { "idle" : 1000150, "run" : 490, "locked" : 0, "mmap" : 0 }
+      },
+      "00046" : {
+        "mmconts" : [13, 13, 13],
+        "acts" : [2, 1],
+        "tstate" : { "idle" : 999186, "run" : 1457, "locked" : 0, "mmap" : 0 }
+      },
+      "00047" : {
+        "mmconts" : [12, 12, 12],
+        "acts" : [1, 0],
+        "tstate" : { "idle" : 999701, "run" : 944, "locked" : 0, "mmap" : 0 }
+      },
+      "00048" : {
+        "mmconts" : [12, 12, 12],
+        "acts" : [1, 0],
+        "tstate" : { "idle" : 999791, "run" : 857, "locked" : 0, "mmap" : 0 }
+      },
+      "00049" : {
+        "mmconts" : [10, 10, 11],
+        "acts" : [3, 2],
+        "tstate" : { "idle" : 998229, "run" : 2421, "locked" : 0, "mmap" : 0 }
+      },
+      "00050" : {
+        "mmconts" : [11, 11, 11],
+        "acts" : [0, 0],
+        "tstate" : { "idle" : 1000690, "run" : 736, "locked" : 0, "mmap" : 0 }
+      }
+    }
+  },
+  "benchmark_io" : {
+    "simple_times" : {
+      "mcount" : {
+        "mcount" : { "14 -- 24" : 1 }
+      }
+    },
+    "stream_method" : {
+      "conns" : [1, 0],
+      "in" : [214, 213],
+      "out" : [1039, 1037],
+      "mmtasks" : [0, 0, 1],
+      "load" : 0.030,
+      "mcount" : {
+        "mcount" : { "Success" : 1 }
+      },
+      "http_proto0" : {
+        "mcount" : {
+          "mcount" : { "Unauthorized" : 1 }
+        }
+      },
+      "source_log" : {
+        "delta" : [0, 0, 0]
+      },
+      "loggers" : {
+        "brief_logger" : {
+          "records" : [1, 0],
+          "out" : [59, 58]
+        },
+        "benchmark_logger" : {
+          "records" : [1, 0],
+          "out" : [1278, 1276]
+        }
+      }
+    }
+  }
+},
+"2024-07-05 09:01:26.581 +0000" : {
+  "main_scheduler" : {
+    "bqs" : {
+      "00044" : {
+        "mmconts" : [12, 12, 12],
+        "acts" : [1, 1],
+        "tstate" : { "idle" : 998245, "run" : 1364, "locked" : 0, "mmap" : 0 }
+      },
+      "00045" : {
+        "mmconts" : [12, 12, 12],
+        "acts" : [0, 0],
+        "tstate" : { "idle" : 999088, "run" : 523, "locked" : 0, "mmap" : 0 }
+      },
+      "00046" : {
+        "mmconts" : [13, 13, 13],
+        "acts" : [2, 2],
+        "tstate" : { "idle" : 995408, "run" : 4202, "locked" : 0, "mmap" : 0 }
+      },
+      "00047" : {
+        "mmconts" : [12, 12, 12],
+        "acts" : [1, 1],
+        "tstate" : { "idle" : 997832, "run" : 1778, "locked" : 0, "mmap" : 0 }
+      },
+      "00048" : {
+        "mmconts" : [12, 12, 12],
+        "acts" : [1, 1],
+        "tstate" : { "idle" : 997937, "run" : 1673, "locked" : 0, "mmap" : 0 }
+      },
+      "00049" : {
+        "mmconts" : [10, 10, 10],
+        "acts" : [0, 0],
+        "tstate" : { "idle" : 999020, "run" : 590, "locked" : 0, "mmap" : 0 }
+      },
+      "00050" : {
+        "mmconts" : [10, 10, 11],
+        "acts" : [3, 3],
+        "tstate" : { "idle" : 998065, "run" : 1231, "locked" : 0, "mmap" : 0 }
+      }
+    }
+  },
+  "benchmark_io" : {
+    "simple_times" : {
+      "mcount" : {
+        "mcount" : { "2 -- 4" : 1 }
+      }
+    },
+    "stream_method" : {
+      "conns" : [1, 1],
+      "in" : [214, 214],
+      "out" : [1039, 1039],
+      "mmtasks" : [0, 0, 1],
+      "load" : 0.038,
+      "mcount" : {
+        "mcount" : { "Success" : 1 }
+      },
+      "http_proto0" : {
+        "mcount" : {
+          "mcount" : { "Unauthorized" : 1 }
+        }
+      },
+      "source_log" : {
+        "delta" : [0, 0, 0]
+      },
+      "loggers" : {
+        "brief_logger" : {
+          "records" : [1, 1],
+          "out" : [57, 57]
+        },
+        "benchmark_logger" : {
+          "records" : [1, 1],
+          "out" : [1276, 1276]
+        }
+      }
+    }
+  }
+},
+"2024-07-05 09:01:27.581 +0000" : {
+  "main_scheduler" : {
+    "bqs" : {
+      "00044" : {
+        "mmconts" : [12, 12, 12],
+        "acts" : [1, 1],
+        "tstate" : { "idle" : 998688, "run" : 796, "locked" : 0, "mmap" : 0 }
+      },
+      "00045" : {
+        "mmconts" : [11, 11, 12],
+        "acts" : [3, 3],
+        "tstate" : { "idle" : 998224, "run" : 1253, "locked" : 0, "mmap" : 0 }
+      },
+      "00046" : {
+        "mmconts" : [13, 13, 13],
+        "acts" : [2, 2],
+        "tstate" : { "idle" : 996727, "run" : 2748, "locked" : 0, "mmap" : 0 }
+      },
+      "00047" : {
+        "mmconts" : [12, 12, 12],
+        "acts" : [1, 1],
+        "tstate" : { "idle" : 998538, "run" : 934, "locked" : 0, "mmap" : 0 }
+      },
+      "00048" : {
+        "mmconts" : [12, 12, 12],
+        "acts" : [1, 1],
+        "tstate" : { "idle" : 998580, "run" : 890, "locked" : 0, "mmap" : 0 }
+      },
+      "00049" : {
+        "mmconts" : [10, 10, 10],
+        "acts" : [0, 0],
+        "tstate" : { "idle" : 998813, "run" : 655, "locked" : 0, "mmap" : 0 }
+      },
+      "00050" : {
+        "mmconts" : [10, 10, 10],
+        "acts" : [0, 0],
+        "tstate" : { "idle" : 998596, "run" : 606, "locked" : 0, "mmap" : 0 }
+      }
+    }
+  },
+  "benchmark_io" : {
+    "simple_times" : {
+      "mcount" : {
+        "mcount" : { "2 -- 4" : 1 }
+      }
+    },
+    "stream_method" : {
+      "conns" : [1, 1],
+      "in" : [214, 214],
+      "out" : [1039, 1039],
+      "mmtasks" : [0, 0, 1],
+      "load" : 0.036,
+      "mcount" : {
+        "mcount" : { "Success" : 1 }
+      },
+      "http_proto0" : {
+        "mcount" : {
+          "mcount" : { "Unauthorized" : 1 }
+        }
+      },
+      "source_log" : {
+        "delta" : [0, 0, 0]
+      },
+      "loggers" : {
+        "brief_logger" : {
+          "records" : [1, 1],
+          "out" : [57, 57]
+        },
+        "benchmark_logger" : {
+          "records" : [1, 1],
+          "out" : [1276, 1277]
+        }
+      }
+    }
+  }
+},
+"2024-07-05 09:01:28.581 +0000" : {
+  "main_scheduler" : {
+    "bqs" : {
+      "00044" : {
+        "mmconts" : [11, 11, 12],
+        "acts" : [4, 3],
+        "tstate" : { "idle" : 997857, "run" : 2177, "locked" : 0, "mmap" : 0 }
+      },
+      "00045" : {
+        "mmconts" : [11, 11, 11],
+        "acts" : [0, 0],
+        "tstate" : { "idle" : 999479, "run" : 556, "locked" : 0, "mmap" : 0 }
+      },
+      "00046" : {
+        "mmconts" : [13, 13, 13],
+        "acts" : [2, 1],
+        "tstate" : { "idle" : 997993, "run" : 2043, "locked" : 0, "mmap" : 0 }
+      },
+      "00047" : {
+        "mmconts" : [12, 12, 12],
+        "acts" : [1, 0],
+        "tstate" : { "idle" : 998939, "run" : 1098, "locked" : 0, "mmap" : 0 }
+      },
+      "00048" : {
+        "mmconts" : [12, 12, 12],
+        "acts" : [1, 0],
+        "tstate" : { "idle" : 999080, "run" : 958, "locked" : 0, "mmap" : 0 }
+      },
+      "00049" : {
+        "mmconts" : [10, 10, 10],
+        "acts" : [0, 0],
+        "tstate" : { "idle" : 999237, "run" : 801, "locked" : 0, "mmap" : 0 }
+      },
+      "00050" : {
+        "mmconts" : [10, 10, 10],
+        "acts" : [0, 0],
+        "tstate" : { "idle" : 999376, "run" : 742, "locked" : 0, "mmap" : 0 }
+      }
+    }
+  },
+  "benchmark_io" : {
+    "simple_times" : {
+      "mcount" : {
+        "mcount" : { "4 -- 8" : 1 }
+      }
+    },
+    "stream_method" : {
+      "conns" : [1, 0],
+      "in" : [214, 213],
+      "out" : [1039, 1038],
+      "mmtasks" : [0, 0, 1],
+      "load" : 0.042,
+      "mcount" : {
+        "mcount" : { "Success" : 1 }
+      },
+      "http_proto0" : {
+        "mcount" : {
+          "mcount" : { "Unauthorized" : 1 }
+        }
+      },
+      "source_log" : {
+        "delta" : [0, 0, 0]
+      },
+      "loggers" : {
+        "brief_logger" : {
+          "records" : [1, 0],
+          "out" : [57, 56]
+        },
+        "benchmark_logger" : {
+          "records" : [1, 0],
+          "out" : [1276, 1275]
+        }
+      }
+    }
+  }
+},
+"2024-07-05 09:01:29.582 +0000" : {
+  "main_scheduler" : {
+    "bqs" : {
+      "00044" : {
+        "mmconts" : [11, 11, 11],
+        "acts" : [1, 0],
+        "tstate" : { "idle" : 999801, "run" : 995, "locked" : 0, "mmap" : 0 }
+      },
+      "00045" : {
+        "mmconts" : [11, 11, 11],
+        "acts" : [0, 0],
+        "tstate" : { "idle" : 1000259, "run" : 539, "locked" : 0, "mmap" : 0 }
+      },
+      "00046" : {
+        "mmconts" : [12, 12, 13],
+        "acts" : [5, 4],
+        "tstate" : { "idle" : 997532, "run" : 3267, "locked" : 0, "mmap" : 0 }
+      },
+      "00047" : {
+        "mmconts" : [12, 12, 12],
+        "acts" : [1, 0],
+        "tstate" : { "idle" : 999552, "run" : 1248, "locked" : 0, "mmap" : 0 }
+      },
+      "00048" : {
+        "mmconts" : [11, 11, 12],
+        "acts" : [4, 3],
+        "tstate" : { "idle" : 996671, "run" : 4130, "locked" : 0, "mmap" : 0 }
+      },
+      "00049" : {
+        "mmconts" : [10, 10, 10],
+        "acts" : [0, 0],
+        "tstate" : { "idle" : 1000146, "run" : 656, "locked" : 0, "mmap" : 0 }
+      },
+      "00050" : {
+        "mmconts" : [10, 10, 10],
+        "acts" : [0, 0],
+        "tstate" : { "idle" : 1000421, "run" : 650, "locked" : 0, "mmap" : 0 }
+      }
+    }
+  },
+  "benchmark_io" : {
+    "simple_times" : {
+      "mcount" : {
+        "mcount" : { "8 -- 14" : 1, "4 -- 8" : 1 }
+      }
+    },
+    "stream_method" : {
+      "conns" : [2, 1],
+      "in" : [428, 427],
+      "out" : [2078, 2075],
+      "mmtasks" : [0, 0, 1],
+      "load" : 0.034,
+      "mcount" : {
+        "mcount" : { "Success" : 2 }
+      },
+      "http_proto0" : {
+        "mcount" : {
+          "mcount" : { "Unauthorized" : 2 }
+        }
+      },
+      "source_log" : {
+        "delta" : [0, 0, 0]
+      },
+      "loggers" : {
+        "brief_logger" : {
+          "records" : [2, 1],
+          "out" : [117, 116]
+        },
+        "benchmark_logger" : {
+          "records" : [2, 1],
+          "out" : [2554, 2551]
+        }
+      }
+    }
+  }
+},
+"2024-07-05 09:01:30.582 +0000" : {
+  "main_scheduler" : {
+    "bqs" : {
+      "00044" : {
+        "mmconts" : [11, 11, 11],
+        "acts" : [1, 0],
+        "tstate" : { "idle" : 998438, "run" : 1621, "locked" : 0, "mmap" : 0 }
+      },
+      "00045" : {
+        "mmconts" : [11, 11, 11],
+        "acts" : [0, 0],
+        "tstate" : { "idle" : 999440, "run" : 619, "locked" : 0, "mmap" : 0 }
+      },
+      "00046" : {
+        "mmconts" : [12, 12, 12],
+        "acts" : [2, 1],
+        "tstate" : { "idle" : 996285, "run" : 3774, "locked" : 0, "mmap" : 0 }
+      },
+      "00047" : {
+        "mmconts" : [11, 11, 12],
+        "acts" : [4, 3],
+        "tstate" : { "idle" : 996310, "run" : 3749, "locked" : 0, "mmap" : 0 }
+      },
+      "00048" : {
+        "mmconts" : [11, 11, 11],
+        "acts" : [1, 0],
+        "tstate" : { "idle" : 998541, "run" : 1517, "locked" : 0, "mmap" : 0 }
+      },
+      "00049" : {
+        "mmconts" : [10, 10, 10],
+        "acts" : [0, 0],
+        "tstate" : { "idle" : 999413, "run" : 646, "locked" : 0, "mmap" : 0 }
+      },
+      "00050" : {
+        "mmconts" : [10, 10, 10],
+        "acts" : [0, 0],
+        "tstate" : { "idle" : 999235, "run" : 700, "locked" : 0, "mmap" : 0 }
+      }
+    }
+  },
+  "benchmark_io" : {
+    "simple_times" : {
+      "mcount" : {
+        "mcount" : { "14 -- 24" : 1 }
+      }
+    },
+    "stream_method" : {
+      "conns" : [1, 1],
+      "in" : [214, 214],
+      "out" : [1039, 1039],
+      "mmtasks" : [0, 0, 1],
+      "load" : 0.051,
+      "mcount" : {
+        "mcount" : { "Success" : 1 }
+      },
+      "http_proto0" : {
+        "mcount" : {
+          "mcount" : { "Unauthorized" : 1 }
+        }
+      },
+      "source_log" : {
+        "delta" : [0, 0, 0]
+      },
+      "loggers" : {
+        "brief_logger" : {
+          "records" : [1, 1],
+          "out" : [60, 60]
+        },
+        "benchmark_logger" : {
+          "records" : [1, 1],
+          "out" : [1278, 1278]
+        }
+      }
+    }
+  }
+},
+"2024-07-05 09:01:31.581 +0000" : {
+  "main_scheduler" : {
+    "bqs" : {
+      "00044" : {
+        "mmconts" : [11, 11, 11],
+        "acts" : [1, 1],
+        "tstate" : { "idle" : 997930, "run" : 1063, "locked" : 0, "mmap" : 0 }
+      },
+      "00045" : {
+        "mmconts" : [11, 11, 11],
+        "acts" : [0, 0],
+        "tstate" : { "idle" : 998356, "run" : 640, "locked" : 0, "mmap" : 0 }
+      },
+      "00046" : {
+        "mmconts" : [12, 12, 12],
+        "acts" : [2, 2],
+        "tstate" : { "idle" : 995777, "run" : 3220, "locked" : 0, "mmap" : 0 }
+      },
+      "00047" : {
+        "mmconts" : [11, 11, 11],
+        "acts" : [1, 1],
+        "tstate" : { "idle" : 997409, "run" : 1591, "locked" : 0, "mmap" : 0 }
+      },
+      "00048" : {
+        "mmconts" : [11, 11, 11],
+        "acts" : [1, 1],
+        "tstate" : { "idle" : 997767, "run" : 1235, "locked" : 0, "mmap" : 0 }
+      },
+      "00049" : {
+        "mmconts" : [9, 9, 10],
+        "acts" : [3, 3],
+        "tstate" : { "idle" : 996273, "run" : 2730, "locked" : 0, "mmap" : 0 }
+      },
+      "00050" : {
+        "mmconts" : [10, 10, 10],
+        "acts" : [0, 0],
+        "tstate" : { "idle" : 998795, "run" : 597, "locked" : 0, "mmap" : 0 }
+      }
+    }
+  },
+  "benchmark_io" : {
+    "simple_times" : {
+      "mcount" : {
+        "mcount" : { "8 -- 14" : 1 }
+      }
+    },
+    "stream_method" : {
+      "conns" : [1, 1],
+      "in" : [214, 214],
+      "out" : [1039, 1039],
+      "mmtasks" : [0, 0, 1],
+      "load" : 0.046,
+      "mcount" : {
+        "mcount" : { "Success" : 1 }
+      },
+      "http_proto0" : {
+        "mcount" : {
+          "mcount" : { "Unauthorized" : 1 }
+        }
+      },
+      "source_log" : {
+        "delta" : [0, 0, 0]
+      },
+      "loggers" : {
+        "brief_logger" : {
+          "records" : [1, 1],
+          "out" : [60, 60]
+        },
+        "benchmark_logger" : {
+          "records" : [1, 1],
+          "out" : [1278, 1278]
+        }
+      }
+    }
+  }
+},
+"2024-07-05 09:01:32.582 +0000" : {
+  "main_scheduler" : {
+    "bqs" : {
+      "00044" : {
+        "mmconts" : [10, 10, 11],
+        "acts" : [4, 3],
+        "tstate" : { "idle" : 998693, "run" : 2144, "locked" : 0, "mmap" : 0 }
+      },
+      "00045" : {
+        "mmconts" : [10, 10, 11],
+        "acts" : [3, 2],
+        "tstate" : { "idle" : 999516, "run" : 1314, "locked" : 0, "mmap" : 0 }
+      },
+      "00046" : {
+        "mmconts" : [12, 12, 12],
+        "acts" : [2, 1],
+        "tstate" : { "idle" : 996530, "run" : 4297, "locked" : 0, "mmap" : 0 }
+      },
+      "00047" : {
+        "mmconts" : [11, 11, 11],
+        "acts" : [1, 0],
+        "tstate" : { "idle" : 998918, "run" : 1904, "locked" : 0, "mmap" : 0 }
+      },
+      "00048" : {
+        "mmconts" : [11, 11, 11],
+        "acts" : [1, 0],
+        "tstate" : { "idle" : 999098, "run" : 1721, "locked" : 0, "mmap" : 0 }
+      },
+      "00049" : {
+        "mmconts" : [9, 9, 9],
+        "acts" : [0, 0],
+        "tstate" : { "idle" : 1000115, "run" : 701, "locked" : 0, "mmap" : 0 }
+      },
+      "00050" : {
+        "mmconts" : [10, 10, 10],
+        "acts" : [0, 0],
+        "tstate" : { "idle" : 999138, "run" : 792, "locked" : 0, "mmap" : 0 }
+      }
+    }
+  },
+  "benchmark_io" : {
+    "simple_times" : {
+      "mcount" : {
+        "mcount" : { "4 -- 8" : 1, "2 -- 4" : 1 }
+      }
+    },
+    "stream_method" : {
+      "conns" : [2, 2],
+      "in" : [428, 428],
+      "out" : [2078, 2078],
+      "mmtasks" : [0, 0, 1],
+      "load" : 0.044,
+      "mcount" : {
+        "mcount" : { "Success" : 2 }
+      },
+      "http_proto0" : {
+        "mcount" : {
+          "mcount" : { "Unauthorized" : 2 }
+        }
+      },
+      "source_log" : {
+        "delta" : [0, 0, 0]
+      },
+      "loggers" : {
+        "brief_logger" : {
+          "records" : [2, 2],
+          "out" : [114, 114]
+        },
+        "benchmark_logger" : {
+          "records" : [2, 2],
+          "out" : [2552, 2552]
+        }
+      }
+    }
+  }
+},
+"2024-07-05 09:01:33.581 +0000" : {
+  "main_scheduler" : {
+    "bqs" : {
+      "00044" : {
+        "mmconts" : [10, 10, 10],
+        "acts" : [1, 1],
+        "tstate" : { "idle" : 998604, "run" : 928, "locked" : 0, "mmap" : 0 }
+      },
+      "00045" : {
+        "mmconts" : [10, 10, 10],
+        "acts" : [0, 0],
+        "tstate" : { "idle" : 998921, "run" : 612, "locked" : 0, "mmap" : 0 }
+      },
+      "00046" : {
+        "mmconts" : [12, 12, 12],
+        "acts" : [2, 2],
+        "tstate" : { "idle" : 998082, "run" : 1451, "locked" : 0, "mmap" : 0 }
+      },
+      "00047" : {
+        "mmconts" : [11, 11, 11],
+        "acts" : [1, 1],
+        "tstate" : { "idle" : 998424, "run" : 1112, "locked" : 0, "mmap" : 0 }
+      },
+      "00048" : {
+        "mmconts" : [11, 11, 11],
+        "acts" : [1, 1],
+        "tstate" : { "idle" : 998650, "run" : 886, "locked" : 0, "mmap" : 0 }
+      },
+      "00049" : {
+        "mmconts" : [9, 9, 9],
+        "acts" : [0, 0],
+        "tstate" : { "idle" : 998577, "run" : 959, "locked" : 0, "mmap" : 0 }
+      },
+      "00050" : {
+        "mmconts" : [9, 9, 10],
+        "acts" : [3, 3],
+        "tstate" : { "idle" : 998250, "run" : 1429, "locked" : 0, "mmap" : 0 }
+      }
+    }
+  },
+  "benchmark_io" : {
+    "simple_times" : {
+      "mcount" : {
+        "mcount" : { "2 -- 4" : 1 }
+      }
+    },
+    "stream_method" : {
+      "conns" : [1, 1],
+      "in" : [214, 214],
+      "out" : [1039, 1039],
+      "mmtasks" : [0, 0, 1],
+      "load" : 0.039,
+      "mcount" : {
+        "mcount" : { "Success" : 1 }
+      },
+      "http_proto0" : {
+        "mcount" : {
+          "mcount" : { "Unauthorized" : 1 }
+        }
+      },
+      "source_log" : {
+        "delta" : [0, 0, 0]
+      },
+      "loggers" : {
+        "brief_logger" : {
+          "records" : [1, 1],
+          "out" : [57, 57]
+        },
+        "benchmark_logger" : {
+          "records" : [1, 1],
+          "out" : [1276, 1276]
+        }
+      }
+    }
+  }
+},
+"2024-07-05 09:01:34.581 +0000" : {
+  "main_scheduler" : {
+    "bqs" : {
+      "00044" : {
+        "mmconts" : [10, 10, 10],
+        "acts" : [1, 1],
+        "tstate" : { "idle" : 998898, "run" : 776, "locked" : 0, "mmap" : 0 }
+      },
+      "00045" : {
+        "mmconts" : [10, 10, 10],
+        "acts" : [0, 0],
+        "tstate" : { "idle" : 999104, "run" : 568, "locked" : 0, "mmap" : 0 }
+      },
+      "00046" : {
+        "mmconts" : [11, 11, 12],
+        "acts" : [5, 5],
+        "tstate" : { "idle" : 997405, "run" : 2267, "locked" : 0, "mmap" : 0 }
+      },
+      "00047" : {
+        "mmconts" : [11, 11, 11],
+        "acts" : [1, 1],
+        "tstate" : { "idle" : 998781, "run" : 889, "locked" : 0, "mmap" : 0 }
+      },
+      "00048" : {
+        "mmconts" : [11, 11, 11],
+        "acts" : [1, 1],
+        "tstate" : { "idle" : 998861, "run" : 809, "locked" : 0, "mmap" : 0 }
+      },
+      "00049" : {
+        "mmconts" : [9, 9, 9],
+        "acts" : [0, 0],
+        "tstate" : { "idle" : 999164, "run" : 506, "locked" : 0, "mmap" : 0 }
+      },
+      "00050" : {
+        "mmconts" : [9, 9, 9],
+        "acts" : [0, 0],
+        "tstate" : { "idle" : 999097, "run" : 633, "locked" : 0, "mmap" : 0 }
+      }
+    }
+  },
+  "benchmark_io" : {
+    "simple_times" : {
+      "mcount" : {
+        "mcount" : { "2 -- 4" : 1 }
+      }
+    },
+    "stream_method" : {
+      "conns" : [1, 1],
+      "in" : [214, 214],
+      "out" : [1039, 1039],
+      "mmtasks" : [0, 0, 1],
+      "load" : 0.029,
+      "mcount" : {
+        "mcount" : { "Success" : 1 }
+      },
+      "http_proto0" : {
+        "mcount" : {
+          "mcount" : { "Unauthorized" : 1 }
+        }
+      },
+      "source_log" : {
+        "delta" : [0, 0, 0]
+      },
+      "loggers" : {
+        "brief_logger" : {
+          "records" : [1, 1],
+          "out" : [57, 57]
+        },
+        "benchmark_logger" : {
+          "records" : [1, 1],
+          "out" : [1276, 1276]
+        }
+      }
+    }
+  }
+},
+"2024-07-05 09:01:35.581 +0000" : {
+  "main_scheduler" : {
+    "bqs" : {
+      "00044" : {
+        "mmconts" : [10, 10, 10],
+        "acts" : [1, 1],
+        "tstate" : { "idle" : 998897, "run" : 934, "locked" : 0, "mmap" : 0 }
+      },
+      "00045" : {
+        "mmconts" : [10, 10, 10],
+        "acts" : [0, 0],
+        "tstate" : { "idle" : 999210, "run" : 623, "locked" : 0, "mmap" : 0 }
+      },
+      "00046" : {
+        "mmconts" : [11, 11, 11],
+        "acts" : [2, 2],
+        "tstate" : { "idle" : 997750, "run" : 2083, "locked" : 0, "mmap" : 0 }
+      },
+      "00047" : {
+        "mmconts" : [10, 10, 11],
+        "acts" : [4, 4],
+        "tstate" : { "idle" : 997102, "run" : 2732, "locked" : 0, "mmap" : 0 }
+      },
+      "00048" : {
+        "mmconts" : [10, 10, 11],
+        "acts" : [4, 4],
+        "tstate" : { "idle" : 998096, "run" : 1738, "locked" : 0, "mmap" : 0 }
+      },
+      "00049" : {
+        "mmconts" : [9, 9, 9],
+        "acts" : [0, 0],
+        "tstate" : { "idle" : 999079, "run" : 755, "locked" : 0, "mmap" : 0 }
+      },
+      "00050" : {
+        "mmconts" : [9, 9, 9],
+        "acts" : [0, 0],
+        "tstate" : { "idle" : 999136, "run" : 728, "locked" : 0, "mmap" : 0 }
+      }
+    }
+  },
+  "benchmark_io" : {
+    "simple_times" : {
+      "mcount" : {
+        "mcount" : { "8 -- 14" : 1, "2 -- 4" : 1 }
+      }
+    },
+    "stream_method" : {
+      "conns" : [2, 2],
+      "in" : [428, 428],
+      "out" : [2078, 2078],
+      "mmtasks" : [0, 0, 1],
+      "load" : 0.041,
+      "mcount" : {
+        "mcount" : { "Success" : 2 }
+      },
+      "http_proto0" : {
+        "mcount" : {
+          "mcount" : { "Unauthorized" : 2 }
+        }
+      },
+      "source_log" : {
+        "delta" : [0, 0, 0]
+      },
+      "loggers" : {
+        "brief_logger" : {
+          "records" : [2, 2],
+          "out" : [114, 114]
+        },
+        "benchmark_logger" : {
+          "records" : [2, 2],
+          "out" : [2552, 2552]
+        }
+      }
+    }
+  }
+},
+"2024-07-05 09:01:36.581 +0000" : {
+  "main_scheduler" : {
+    "bqs" : {
+      "00044" : {
+        "mmconts" : [10, 10, 10],
+        "acts" : [1, 0],
+        "tstate" : { "idle" : 999818, "run" : 800, "locked" : 0, "mmap" : 0 }
+      },
+      "00045" : {
+        "mmconts" : [10, 10, 10],
+        "acts" : [0, 0],
+        "tstate" : { "idle" : 1000054, "run" : 608, "locked" : 0, "mmap" : 0 }
+      },
+      "00046" : {
+        "mmconts" : [11, 11, 11],
+        "acts" : [2, 1],
+        "tstate" : { "idle" : 998576, "run" : 2089, "locked" : 0, "mmap" : 0 }
+      },
+      "00047" : {
+        "mmconts" : [10, 10, 10],
+        "acts" : [1, 0],
+        "tstate" : { "idle" : 999553, "run" : 1113, "locked" : 0, "mmap" : 0 }
+      },
+      "00048" : {
+        "mmconts" : [10, 10, 10],
+        "acts" : [1, 0],
+        "tstate" : { "idle" : 999746, "run" : 923, "locked" : 0, "mmap" : 0 }
+      },
+      "00049" : {
+        "mmconts" : [8, 8, 9],
+        "acts" : [3, 2],
+        "tstate" : { "idle" : 998127, "run" : 2544, "locked" : 0, "mmap" : 0 }
+      },
+      "00050" : {
+        "mmconts" : [9, 9, 9],
+        "acts" : [0, 0],
+        "tstate" : { "idle" : 1000632, "run" : 667, "locked" : 0, "mmap" : 0 }
+      }
+    }
+  },
+  "benchmark_io" : {
+    "simple_times" : {
+      "mcount" : {
+        "mcount" : { "8 -- 14" : 1 }
+      }
+    },
+    "stream_method" : {
+      "conns" : [1, 0],
+      "in" : [214, 213],
+      "out" : [1039, 1037],
+      "mmtasks" : [0, 0, 1],
+      "load" : 0.026,
+      "mcount" : {
+        "mcount" : { "Success" : 1 }
+      },
+      "http_proto0" : {
+        "mcount" : {
+          "mcount" : { "Unauthorized" : 1 }
+        }
+      },
+      "source_log" : {
+        "delta" : [0, 0, 0]
+      },
+      "loggers" : {
+        "brief_logger" : {
+          "records" : [1, 0],
+          "out" : [59, 58]
+        },
+        "benchmark_logger" : {
+          "records" : [1, 0],
+          "out" : [1278, 1276]
+        }
+      }
+    }
+  }
+},
+"2024-07-05 09:01:37.581 +0000" : {
+  "main_scheduler" : {
+    "bqs" : {
+      "00044" : {
+        "mmconts" : [10, 10, 10],
+        "acts" : [1, 0],
+        "tstate" : { "idle" : 999291, "run" : 971, "locked" : 0, "mmap" : 0 }
+      },
+      "00045" : {
+        "mmconts" : [10, 10, 10],
+        "acts" : [0, 0],
+        "tstate" : { "idle" : 999607, "run" : 615, "locked" : 0, "mmap" : 0 }
+      },
+      "00046" : {
+        "mmconts" : [11, 11, 11],
+        "acts" : [2, 1],
+        "tstate" : { "idle" : 996482, "run" : 3739, "locked" : 0, "mmap" : 0 }
+      },
+      "00047" : {
+        "mmconts" : [10, 10, 10],
+        "acts" : [1, 0],
+        "tstate" : { "idle" : 999236, "run" : 985, "locked" : 0, "mmap" : 0 }
+      },
+      "00048" : {
+        "mmconts" : [10, 10, 10],
+        "acts" : [1, 0],
+        "tstate" : { "idle" : 999190, "run" : 1030, "locked" : 0, "mmap" : 0 }
+      },
+      "00049" : {
+        "mmconts" : [8, 8, 8],
+        "acts" : [0, 0],
+        "tstate" : { "idle" : 999512, "run" : 707, "locked" : 0, "mmap" : 0 }
+      },
+      "00050" : {
+        "mmconts" : [8, 8, 9],
+        "acts" : [3, 2],
+        "tstate" : { "idle" : 998547, "run" : 1515, "locked" : 0, "mmap" : 0 }
+      }
+    }
+  },
+  "benchmark_io" : {
+    "simple_times" : {
+      "mcount" : {
+        "mcount" : { "2 -- 4" : 1 }
+      }
+    },
+    "stream_method" : {
+      "conns" : [1, 0],
+      "in" : [214, 213],
+      "out" : [1039, 1038],
+      "mmtasks" : [0, 0, 1],
+      "load" : 0.033,
+      "mcount" : {
+        "mcount" : { "Success" : 1 }
+      },
+      "http_proto0" : {
+        "mcount" : {
+          "mcount" : { "Unauthorized" : 1 }
+        }
+      },
+      "source_log" : {
+        "delta" : [0, 0, 0]
+      },
+      "loggers" : {
+        "brief_logger" : {
+          "records" : [1, 0],
+          "out" : [57, 56]
+        },
+        "benchmark_logger" : {
+          "records" : [1, 0],
+          "out" : [1276, 1275]
+        }
+      }
+    }
+  }
+},
+"2024-07-05 09:01:38.581 +0000" : {
+  "main_scheduler" : {
+    "bqs" : {
+      "00044" : {
+        "mmconts" : [9, 9, 10],
+        "acts" : [4, 4],
+        "tstate" : { "idle" : 997632, "run" : 1943, "locked" : 0, "mmap" : 0 }
+      },
+      "00045" : {
+        "mmconts" : [9, 9, 10],
+        "acts" : [3, 3],
+        "tstate" : { "idle" : 997808, "run" : 1768, "locked" : 0, "mmap" : 0 }
+      },
+      "00046" : {
+        "mmconts" : [11, 11, 11],
+        "acts" : [2, 2],
+        "tstate" : { "idle" : 995784, "run" : 3793, "locked" : 0, "mmap" : 0 }
+      },
+      "00047" : {
+        "mmconts" : [10, 10, 10],
+        "acts" : [1, 1],
+        "tstate" : { "idle" : 998028, "run" : 1549, "locked" : 0, "mmap" : 0 }
+      },
+      "00048" : {
+        "mmconts" : [10, 10, 10],
+        "acts" : [1, 1],
+        "tstate" : { "idle" : 998214, "run" : 1364, "locked" : 0, "mmap" : 0 }
+      },
+      "00049" : {
+        "mmconts" : [8, 8, 8],
+        "acts" : [0, 0],
+        "tstate" : { "idle" : 998951, "run" : 629, "locked" : 0, "mmap" : 0 }
+      },
+      "00050" : {
+        "mmconts" : [8, 8, 8],
+        "acts" : [0, 0],
+        "tstate" : { "idle" : 999088, "run" : 600, "locked" : 0, "mmap" : 0 }
+      }
+    }
+  },
+  "benchmark_io" : {
+    "simple_times" : {
+      "mcount" : {
+        "mcount" : { "4 -- 8" : 1, "2 -- 4" : 1 }
+      }
+    },
+    "stream_method" : {
+      "conns" : [2, 2],
+      "in" : [428, 428],
+      "out" : [2078, 2078],
+      "mmtasks" : [0, 0, 1],
+      "load" : 0.041,
+      "mcount" : {
+        "mcount" : { "Success" : 2 }
+      },
+      "http_proto0" : {
+        "mcount" : {
+          "mcount" : { "Unauthorized" : 2 }
+        }
+      },
+      "source_log" : {
+        "delta" : [0, 0, 0]
+      },
+      "loggers" : {
+        "brief_logger" : {
+          "records" : [2, 2],
+          "out" : [114, 114]
+        },
+        "benchmark_logger" : {
+          "records" : [2, 2],
+          "out" : [2552, 2552]
+        }
+      }
+    }
+  }
+},
+"2024-07-05 09:01:39.582 +0000" : {
+  "main_scheduler" : {
+    "bqs" : {
+      "00044" : {
+        "mmconts" : [9, 9, 9],
+        "acts" : [1, 0],
+        "tstate" : { "idle" : 998897, "run" : 1690, "locked" : 0, "mmap" : 0 }
+      },
+      "00045" : {
+        "mmconts" : [9, 9, 9],
+        "acts" : [0, 0],
+        "tstate" : { "idle" : 1000095, "run" : 495, "locked" : 0, "mmap" : 0 }
+      },
+      "00046" : {
+        "mmconts" : [11, 11, 11],
+        "acts" : [2, 1],
+        "tstate" : { "idle" : 996497, "run" : 4095, "locked" : 0, "mmap" : 0 }
+      },
+      "00047" : {
+        "mmconts" : [9, 9, 10],
+        "acts" : [4, 3],
+        "tstate" : { "idle" : 995691, "run" : 4904, "locked" : 0, "mmap" : 0 }
+      },
+      "00048" : {
+        "mmconts" : [10, 10, 10],
+        "acts" : [1, 0],
+        "tstate" : { "idle" : 999100, "run" : 1497, "locked" : 0, "mmap" : 0 }
+      },
+      "00049" : {
+        "mmconts" : [8, 8, 8],
+        "acts" : [0, 0],
+        "tstate" : { "idle" : 1000018, "run" : 580, "locked" : 0, "mmap" : 0 }
+      },
+      "00050" : {
+        "mmconts" : [8, 8, 8],
+        "acts" : [0, 0],
+        "tstate" : { "idle" : 999985, "run" : 656, "locked" : 0, "mmap" : 0 }
+      }
+    }
+  },
+  "benchmark_io" : {
+    "simple_times" : {
+      "mcount" : {
+        "mcount" : { "14 -- 24" : 1 }
+      }
+    },
+    "stream_method" : {
+      "conns" : [1, 0],
+      "in" : [214, 213],
+      "out" : [1039, 1038],
+      "mmtasks" : [0, 0, 1],
+      "load" : 0.041,
+      "mcount" : {
+        "mcount" : { "Success" : 1 }
+      },
+      "http_proto0" : {
+        "mcount" : {
+          "mcount" : { "Unauthorized" : 1 }
+        }
+      },
+      "source_log" : {
+        "delta" : [0, 0, 0]
+      },
+      "loggers" : {
+        "brief_logger" : {
+          "records" : [1, 0],
+          "out" : [60, 59]
+        },
+        "benchmark_logger" : {
+          "records" : [1, 0],
+          "out" : [1278, 1277]
+        }
+      }
+    }
+  }
+},
+"2024-07-05 09:01:40.582 +0000" : {
+  "main_scheduler" : {
+    "bqs" : {
+      "00044" : {
+        "mmconts" : [9, 9, 9],
+        "acts" : [1, 1],
+        "tstate" : { "idle" : 998050, "run" : 1859, "locked" : 0, "mmap" : 0 }
+      },
+      "00045" : {
+        "mmconts" : [9, 9, 9],
+        "acts" : [0, 0],
+        "tstate" : { "idle" : 999308, "run" : 592, "locked" : 0, "mmap" : 0 }
+      },
+      "00046" : {
+        "mmconts" : [10, 10, 11],
+        "acts" : [5, 5],
+        "tstate" : { "idle" : 994517, "run" : 5378, "locked" : 0, "mmap" : 0 }
+      },
+      "00047" : {
+        "mmconts" : [9, 9, 9],
+        "acts" : [1, 1],
+        "tstate" : { "idle" : 997973, "run" : 1917, "locked" : 0, "mmap" : 0 }
+      },
+      "00048" : {
+        "mmconts" : [9, 9, 10],
+        "acts" : [4, 4],
+        "tstate" : { "idle" : 997340, "run" : 2545, "locked" : 0, "mmap" : 0 }
+      },
+      "00049" : {
+        "mmconts" : [8, 8, 8],
+        "acts" : [0, 0],
+        "tstate" : { "idle" : 999217, "run" : 664, "locked" : 0, "mmap" : 0 }
+      },
+      "00050" : {
+        "mmconts" : [8, 8, 8],
+        "acts" : [0, 0],
+        "tstate" : { "idle" : 998614, "run" : 617, "locked" : 0, "mmap" : 0 }
+      }
+    }
+  },
+  "benchmark_io" : {
+    "simple_times" : {
+      "mcount" : {
+        "mcount" : { "2 -- 4" : 2 }
+      }
+    },
+    "stream_method" : {
+      "conns" : [2, 2],
+      "in" : [428, 428],
+      "out" : [2078, 2079],
+      "mmtasks" : [0, 0, 1],
+      "load" : 0.040,
+      "mcount" : {
+        "mcount" : { "Success" : 2 }
+      },
+      "http_proto0" : {
+        "mcount" : {
+          "mcount" : { "Unauthorized" : 2 }
+        }
+      },
+      "source_log" : {
+        "delta" : [0, 0, 0]
+      },
+      "loggers" : {
+        "brief_logger" : {
+          "records" : [2, 2],
+          "out" : [114, 114]
+        },
+        "benchmark_logger" : {
+          "records" : [2, 2],
+          "out" : [2552, 2554]
+        }
+      }
+    }
+  }
+},
+"2024-07-05 09:01:41.581 +0000" : {
+  "main_scheduler" : {
+    "bqs" : {
+      "00044" : {
+        "mmconts" : [9, 9, 9],
+        "acts" : [1, 1],
+        "tstate" : { "idle" : 998939, "run" : 878, "locked" : 0, "mmap" : 0 }
+      },
+      "00045" : {
+        "mmconts" : [9, 9, 9],
+        "acts" : [0, 0],
+        "tstate" : { "idle" : 999261, "run" : 556, "locked" : 0, "mmap" : 0 }
+      },
+      "00046" : {
+        "mmconts" : [10, 10, 10],
+        "acts" : [2, 2],
+        "tstate" : { "idle" : 998134, "run" : 1683, "locked" : 0, "mmap" : 0 }
+      },
+      "00047" : {
+        "mmconts" : [9, 9, 9],
+        "acts" : [1, 1],
+        "tstate" : { "idle" : 998919, "run" : 898, "locked" : 0, "mmap" : 0 }
+      },
+      "00048" : {
+        "mmconts" : [9, 9, 9],
+        "acts" : [1, 1],
+        "tstate" : { "idle" : 999052, "run" : 765, "locked" : 0, "mmap" : 0 }
+      },
+      "00049" : {
+        "mmconts" : [8, 8, 8],
+        "acts" : [0, 0],
+        "tstate" : { "idle" : 999246, "run" : 570, "locked" : 0, "mmap" : 0 }
+      },
+      "00050" : {
+        "mmconts" : [7, 7, 8],
+        "acts" : [3, 3],
+        "tstate" : { "idle" : 996996, "run" : 2703, "locked" : 0, "mmap" : 0 }
+      }
+    }
+  },
+  "benchmark_io" : {
+    "simple_times" : {
+      "mcount" : {
+        "mcount" : { "14 -- 24" : 1 }
+      }
+    },
+    "stream_method" : {
+      "conns" : [1, 1],
+      "in" : [214, 214],
+      "out" : [1039, 1039],
+      "mmtasks" : [0, 0, 1],
+      "load" : 0.056,
+      "mcount" : {
+        "mcount" : { "Success" : 1 }
+      },
+      "http_proto0" : {
+        "mcount" : {
+          "mcount" : { "Unauthorized" : 1 }
+        }
+      },
+      "source_log" : {
+        "delta" : [0, 0, 0]
+      },
+      "loggers" : {
+        "brief_logger" : {
+          "records" : [1, 1],
+          "out" : [60, 60]
+        },
+        "benchmark_logger" : {
+          "records" : [1, 1],
+          "out" : [1278, 1278]
+        }
+      }
+    }
+  }
+},
+"2024-07-05 09:01:42.581 +0000" : {
+  "main_scheduler" : {
+    "bqs" : {
+      "00044" : {
+        "mmconts" : [9, 9, 9],
+        "acts" : [1, 1],
+        "tstate" : { "idle" : 998417, "run" : 859, "locked" : 0, "mmap" : 0 }
+      },
+      "00045" : {
+        "mmconts" : [8, 8, 9],
+        "acts" : [3, 3],
+        "tstate" : { "idle" : 998219, "run" : 1057, "locked" : 0, "mmap" : 0 }
+      },
+      "00046" : {
+        "mmconts" : [10, 10, 10],
+        "acts" : [2, 2],
+        "tstate" : { "idle" : 997942, "run" : 1333, "locked" : 0, "mmap" : 0 }
+      },
+      "00047" : {
+        "mmconts" : [9, 9, 9],
+        "acts" : [1, 1],
+        "tstate" : { "idle" : 998368, "run" : 907, "locked" : 0, "mmap" : 0 }
+      },
+      "00048" : {
+        "mmconts" : [9, 9, 9],
+        "acts" : [1, 1],
+        "tstate" : { "idle" : 998416, "run" : 859, "locked" : 0, "mmap" : 0 }
+      },
+      "00049" : {
+        "mmconts" : [7, 7, 8],
+        "acts" : [3, 3],
+        "tstate" : { "idle" : 998100, "run" : 1176, "locked" : 0, "mmap" : 0 }
+      },
+      "00050" : {
+        "mmconts" : [7, 7, 7],
+        "acts" : [0, 0],
+        "tstate" : { "idle" : 998574, "run" : 608, "locked" : 0, "mmap" : 0 }
+      }
+    }
+  },
+  "benchmark_io" : {
+    "simple_times" : {
+      "mcount" : {
+        "mcount" : { "2 -- 4" : 2 }
+      }
+    },
+    "stream_method" : {
+      "conns" : [2, 2],
+      "in" : [428, 428],
+      "out" : [2078, 2079],
+      "mmtasks" : [0, 0, 1],
+      "load" : 0.035,
+      "mcount" : {
+        "mcount" : { "Success" : 2 }
+      },
+      "http_proto0" : {
+        "mcount" : {
+          "mcount" : { "Unauthorized" : 2 }
+        }
+      },
+      "source_log" : {
+        "delta" : [0, 0, 0]
+      },
+      "loggers" : {
+        "brief_logger" : {
+          "records" : [2, 2],
+          "out" : [114, 114]
+        },
+        "benchmark_logger" : {
+          "records" : [2, 2],
+          "out" : [2552, 2554]
+        }
+      }
+    }
+  }
+},
+"2024-07-05 09:01:43.047 +0000" : {
+  "main_scheduler" : {
+    "bqs" : {
+      "00044" : {
+        "mmconts" : [9, 9, 9],
+        "acts" : [1, 2],
+        "tstate" : { "idle" : 465939, "run" : 634, "locked" : 0, "mmap" : 0 }
+      },
+      "00045" : {
+        "mmconts" : [8, 8, 8],
+        "acts" : [0, 0],
+        "tstate" : { "idle" : 466374, "run" : 202, "locked" : 0, "mmap" : 0 }
+      },
+      "00046" : {
+        "mmconts" : [10, 10, 10],
+        "acts" : [1, 2],
+        "tstate" : { "idle" : 465552, "run" : 1027, "locked" : 0, "mmap" : 0 }
+      },
+      "00047" : {
+        "mmconts" : [9, 9, 9],
+        "acts" : [1, 2],
+        "tstate" : { "idle" : 465814, "run" : 767, "locked" : 0, "mmap" : 0 }
+      },
+      "00048" : {
+        "mmconts" : [9, 9, 9],
+        "acts" : [1, 2],
+        "tstate" : { "idle" : 466107, "run" : 476, "locked" : 0, "mmap" : 0 }
+      },
+      "00049" : {
+        "mmconts" : [7, 7, 7],
+        "acts" : [0, 0],
+        "tstate" : { "idle" : 466248, "run" : 336, "locked" : 0, "mmap" : 0 }
+      },
+      "00050" : {
+        "mmconts" : [7, 7, 7],
+        "acts" : [0, 0],
+        "tstate" : { "idle" : 466880, "run" : 314, "locked" : 0, "mmap" : 0 }
+      }
+    }
+  },
+  "benchmark_io" : {
+    "simple_times" : {
+      "mcount" : {
+        "mcount" : { }
+      }
+    },
+    "stream_method" : {
+      "conns" : [0, 0],
+      "in" : [0, 0],
+      "out" : [0, 0],
+      "mmtasks" : [0, 0, 0],
+      "load" : 0.000,
+      "mcount" : {
+        "mcount" : { }
+      },
+      "http_proto0" : {
+        "mcount" : {
+          "mcount" : { }
+        }
+      },
+      "source_log" : {
+        "delta" : [0, 0, 0]
+      },
+      "loggers" : {
+        "brief_logger" : {
+          "records" : [0, 0],
+          "out" : [0, 0]
+        },
+        "benchmark_logger" : {
+          "records" : [0, 0],
+          "out" : [0, 0]
+        }
+      }
+    }
+  }
+}

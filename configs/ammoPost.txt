@@ -1,0 +1,10 @@
+277 
+POST /auth/token HTTP/1.1
+Host: partner.qatl.ru
+User-Agent: tank
+Accept: */*
+Content-Type: application/x-www-form-urlencoded
+Connection: keep-alive
+Content-Length: 99
+
+grant_type=client_credentials&client_id=broni_travel&client_secret=mLGoVWmEp8iXJxawhGDWQ5KLDzvZXcFw

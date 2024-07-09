@@ -1,0 +1,18 @@
+exit_code: 1
+left_time: null
+lunapark_id: null
+lunapark_url: null
+status_code: FINISHED
+tank_msg: "Exception occurred:\n<class 'KeyboardInterrupt'>: \n  File \"/usr/local/lib/python3.8/dist-packages/yandextank/core/tankworker.py\"\
+  , line 70, in run\n    self.core.plugins_configure()\n\n  File \"/usr/local/lib/python3.8/dist-packages/yandextank/core/tankcore.py\"\
+  , line 262, in plugins_configure\n    plugin.configure()\n\n  File \"/usr/local/lib/python3.8/dist-packages/yandextank/plugins/Phantom/plugin.py\"\
+  , line 67, in configure\n    self.phantom_config = self.phantom.config_file\n\n\
+  \  File \"/usr/local/lib/python3.8/dist-packages/yandextank/plugins/Phantom/plugin.py\"\
+  , line 76, in phantom\n    self._phantom.read_config()\n\n  File \"/usr/local/lib/python3.8/dist-packages/yandextank/plugins/Phantom/utils.py\"\
+  , line 95, in read_config\n    stream.read_config()\n\n  File \"/usr/local/lib/python3.8/dist-packages/yandextank/plugins/Phantom/utils.py\"\
+  , line 274, in read_config\n    self.ipv6, self.resolved_ip, self.port, self.address\
+  \ = self.address_wizard.resolve(\n\n  File \"/usr/local/lib/python3.8/dist-packages/yandextank/common/util.py\"\
+  , line 579, in resolve\n    self.__test(family, (parsed_ip, port))\n\n  File \"\
+  /usr/local/lib/python3.8/dist-packages/yandextank/common/util.py\", line 593, in\
+  \ __test\n    test_sock.connect(sa)\n"
+test_id: 2024-07-04_18-08-36.124349

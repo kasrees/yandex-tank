@@ -1,0 +1,61 @@
+2024-06-28 09:01:51,523 [INFO] root tankworker.py:153	Log file created
+2024-06-28 09:01:51,523 [INFO] root tankworker.py:157	Logging handler <FileHandler /var/loadtest/tank_errors.log (WARNING)> added
+2024-06-28 09:01:51,523 [INFO] root tankworker.py:157	Logging handler <StreamHandler <stdout> (INFO)> added
+2024-06-28 09:01:51,524 [INFO] root tankworker.py:157	Logging handler <StreamHandler <stderr> (NOTSET)> added
+2024-06-28 09:01:51,535 [INFO] root tankworker.py:69	Created a folder for the test. /var/loadtest/logs/2024-06-28_09-01-51.471323
+2024-06-28 09:01:51,536 [INFO] yandextank.core.tankcore tankcore.py:254	Configuring plugins...
+2024-06-28 09:01:51,537 [INFO] yandextank.core.tankcore tankcore.py:205	Loading plugins...
+2024-06-28 09:01:51,537 [INFO] yandextank.core.tankcore tankcore.py:215	Trying to import module: autostop
+2024-06-28 09:01:51,537 [INFO] yandextank.core.tankcore tankcore.py:216	Path: yandextank.plugins.Autostop
+2024-06-28 09:01:51,538 [INFO] yandextank.core.tankcore tankcore.py:215	Trying to import module: console
+2024-06-28 09:01:51,538 [INFO] yandextank.core.tankcore tankcore.py:216	Path: yandextank.plugins.Console
+2024-06-28 09:01:51,539 [INFO] yandextank.core.tankcore tankcore.py:215	Trying to import module: json_report
+2024-06-28 09:01:51,539 [INFO] yandextank.core.tankcore tankcore.py:216	Path: yandextank.plugins.JsonReport
+2024-06-28 09:01:51,542 [INFO] yandextank.core.tankcore tankcore.py:215	Trying to import module: phantom
+2024-06-28 09:01:51,542 [INFO] yandextank.core.tankcore tankcore.py:216	Path: yandextank.plugins.Phantom
+2024-06-28 09:01:51,543 [INFO] yandextank.core.tankcore tankcore.py:215	Trying to import module: rcheck
+2024-06-28 09:01:51,543 [INFO] yandextank.core.tankcore tankcore.py:216	Path: yandextank.plugins.ResourceCheck
+2024-06-28 09:01:51,543 [INFO] yandextank.core.tankcore tankcore.py:215	Trying to import module: shellexec
+2024-06-28 09:01:51,544 [INFO] yandextank.core.tankcore tankcore.py:216	Path: yandextank.plugins.ShellExec
+2024-06-28 09:01:51,544 [INFO] yandextank.core.tankcore tankcore.py:215	Trying to import module: rcassert
+2024-06-28 09:01:51,544 [INFO] yandextank.core.tankcore tankcore.py:216	Path: yandextank.plugins.RCAssert
+2024-06-28 09:01:51,545 [INFO] yandextank.core.tankcore tankcore.py:215	Trying to import module: overload
+2024-06-28 09:01:51,545 [INFO] yandextank.core.tankcore tankcore.py:216	Path: yandextank.plugins.DataUploader
+2024-06-28 09:01:52,583 [INFO] yandextank.plugins.Phantom.utils utils.py:277	Resolved 0.0.0.0 into 0.0.0.0:5000
+2024-06-28 09:01:52,583 [INFO] yandextank.stepper.main main.py:197	Configuring StepperWrapper...
+2024-06-28 09:01:52,585 [INFO] yandextank.stepper.main main.py:336	Making stpd-file: /var/loadtest/ammo.stpd
+2024-06-28 09:01:52,589 [INFO] yandextank.stepper.config config.py:76	Default ammo type ('phantom') used, use 'phantom.ammo_type' option to override it
+2024-06-28 09:01:52,591 [INFO] yandextank.stepper.config config.py:76	Default ammo type ('phantom') used, use 'phantom.ammo_type' option to override it
+2024-06-28 09:01:52,592 [INFO] yandextank.stepper.missile missile.py:95	Loading ammo from 'ammo.txt'
+2024-06-28 09:01:52,592 [INFO] yandextank.stepper.config config.py:126	Using AmmoFileReader ammo reader
+2024-06-28 09:01:53,089 [INFO] yandextank.core.tankcore tankcore.py:268	Preparing test...
+2024-06-28 09:01:53,095 [ERROR] netort.process process.py:43	There were errors:
+b"config error: address is required\n\tin the object stream_method\n\tin the object benchmark_io\n\tat the '/var/loadtest/logs/2024-06-28_09-01-51.471323/phantom_0ckls92b.conf' 76,2\n"
+2024-06-28 09:01:53,097 [ERROR] yandextank.common.util util.py:815	Exception occurred:
+<class 'RuntimeError'>: Config check failed. Subprocess returned code 1. Stderr: b"config error: address is required\n\tin the object stream_method\n\tin the object benchmark_io\n\tat the '/var/loadtest/logs/2024-06-28_09-01-51.471323/phantom_0ckls92b.conf' 76,2\n"
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/core/tankworker.py", line 72, in run
+    self.core.plugins_prepare_test()
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/core/tankcore.py", line 273, in plugins_prepare_test
+    plugin.prepare_test()
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/plugins/Phantom/plugin.py", line 107, in prepare_test
+    raise RuntimeError("Config check failed. Subprocess returned code %s. Stderr: %s" % (retcode, stderr))
+
+2024-06-28 09:01:53,098 [INFO] yandextank.common.util util.py:816	Trying to clean up
+2024-06-28 09:01:53,098 [INFO] yandextank.core.tankcore tankcore.py:562	Cleaning up plugin plugin_autostop
+2024-06-28 09:01:53,098 [INFO] yandextank.core.tankcore tankcore.py:562	Cleaning up plugin plugin_console
+2024-06-28 09:01:53,098 [INFO] yandextank.core.tankcore tankcore.py:562	Cleaning up plugin plugin_json_report
+2024-06-28 09:01:53,099 [INFO] yandextank.core.tankcore tankcore.py:562	Cleaning up plugin plugin_phantom
+2024-06-28 09:01:53,099 [INFO] yandextank.core.tankcore tankcore.py:562	Cleaning up plugin plugin_rcheck
+2024-06-28 09:01:53,099 [INFO] yandextank.core.tankcore tankcore.py:562	Cleaning up plugin plugin_shellexec
+2024-06-28 09:01:53,099 [INFO] yandextank.core.tankcore tankcore.py:562	Cleaning up plugin plugin_rcassert
+2024-06-28 09:01:53,100 [INFO] yandextank.core.tankcore tankcore.py:562	Cleaning up plugin plugin_overload
+2024-06-28 09:01:53,100 [INFO] yandextank.core.tankcore tankcore.py:630	Releasing lock: /var/lock/lunapark_c2mftxfi.lock
+2024-06-28 09:01:53,106 [INFO] yandextank.core.tankcore tankcore.py:405	Artifacts dir: /var/loadtest/logs/2024-06-28_09-01-51.471323
+2024-06-28 09:01:53,106 [INFO] yandextank.core.tankcore tankcore.py:461	File not found to collect: validation_error.yaml
+2024-06-28 09:01:53,108 [INFO] yandextank.core.tankcore tankcore.py:466	File already exists: /var/loadtest/logs/2024-06-28_09-01-51.471323/answ_nch0lmo4.log
+2024-06-28 09:01:53,110 [INFO] yandextank.core.tankcore tankcore.py:466	File already exists: /var/loadtest/logs/2024-06-28_09-01-51.471323/phout_m8g64e90.log
+2024-06-28 09:01:53,112 [INFO] yandextank.core.tankcore tankcore.py:466	File already exists: /var/loadtest/logs/2024-06-28_09-01-51.471323/phantom_stat_v3irtqpa.log
+2024-06-28 09:01:53,114 [INFO] yandextank.core.tankcore tankcore.py:466	File already exists: /var/loadtest/logs/2024-06-28_09-01-51.471323/phantom_t4at1kdl.log
+2024-06-28 09:01:53,115 [INFO] yandextank.core.tankcore tankcore.py:466	File already exists: /var/loadtest/logs/2024-06-28_09-01-51.471323/phantom_0ckls92b.conf
