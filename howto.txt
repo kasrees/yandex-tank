@@ -1,0 +1,1 @@
+docker run -v ${pwd}:/var/loadtest --network=host -it yandex/yandex-tank -c load.yaml ammo.txt
