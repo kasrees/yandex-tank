@@ -4,12 +4,13 @@ overload:
   token_file: "token.txt"
 phantom:
   timeout: 40s
-  address: localhost:5000 # [Target's address]:[target's port]
-  ammo_type: phantom
+  address: bookingreport-qa.travelline.lan:443 # [Target's address]:[target's port]
+  ammo_type: uri
+  ssl: true
   writelog: all
   load_profile:
     load_type: rps # schedule load by defining requests per second
-    schedule: line(20, 50, 1m) # starting from 1rps growing linearly to 10rps during 10 minutes
+    schedule: line(1, 1, 5s) # starting from 1rps growing linearly to 10rps during 10 minutes
 console:
   enabled: true # enable console output
 telegraf:

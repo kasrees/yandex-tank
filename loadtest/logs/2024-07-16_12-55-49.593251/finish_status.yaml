@@ -1,0 +1,21 @@
+exit_code: 1
+left_time: null
+lunapark_id: null
+lunapark_url: null
+status_code: FINISHED
+tank_msg: "Exception occurred:\n<class 'RuntimeError'>: Neither ammofile nor uris\
+  \ specified\n  File \"/usr/local/lib/python3.8/dist-packages/yandextank/core/tankworker.py\"\
+  , line 70, in run\n    self.core.plugins_configure()\n\n  File \"/usr/local/lib/python3.8/dist-packages/yandextank/core/tankcore.py\"\
+  , line 262, in plugins_configure\n    plugin.configure()\n\n  File \"/usr/local/lib/python3.8/dist-packages/yandextank/plugins/Phantom/plugin.py\"\
+  , line 67, in configure\n    self.phantom_config = self.phantom.config_file\n\n\
+  \  File \"/usr/local/lib/python3.8/dist-packages/yandextank/plugins/Phantom/utils.py\"\
+  , line 106, in config_file\n    self._config_file = self.compose_config()\n\n  File\
+  \ \"/usr/local/lib/python3.8/dist-packages/yandextank/plugins/Phantom/utils.py\"\
+  , line 114, in compose_config\n    streams_config += stream.compose_config()\n\n\
+  \  File \"/usr/local/lib/python3.8/dist-packages/yandextank/plugins/Phantom/utils.py\"\
+  , line 288, in compose_config\n    self.stepper_wrapper.prepare_stepper()\n\n  File\
+  \ \"/usr/local/lib/python3.8/dist-packages/yandextank/stepper/main.py\", line 248,\
+  \ in prepare_stepper\n    self.stpd = self.__get_stpd_filename()\n\n  File \"/usr/local/lib/python3.8/dist-packages/yandextank/stepper/main.py\"\
+  , line 302, in __get_stpd_filename\n    raise RuntimeError(\"Neither ammofile nor\
+  \ uris specified\")\n"
+test_id: 2024-07-16_12-55-49.593251

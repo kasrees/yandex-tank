@@ -4804,3 +4804,363 @@ Closing data poller
   File "/usr/local/lib/python3.8/dist-packages/yandextank/core/tankcore.py", line 326, in wait_for_finish
     time.sleep(0.5 - diff)
 
+2024-07-16 12:40:44,178	Using phantom.port option is deprecated. Use phantom.address=[address]:port instead
+2024-07-16 12:40:54,323	Interrupting
+2024-07-16 12:40:54,324	Test interrupted:
+<class 'KeyboardInterrupt'>: 
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/core/tankworker.py", line 79, in run
+    self.retcode = self.core.wait_for_finish()
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/core/tankcore.py", line 326, in wait_for_finish
+    time.sleep(0.5 - diff)
+
+2024-07-16 12:44:10,041	Using phantom.port option is deprecated. Use phantom.address=[address]:port instead
+2024-07-16 12:44:20,642	Interrupting
+2024-07-16 12:44:20,644	Test interrupted:
+<class 'KeyboardInterrupt'>: 
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/core/tankworker.py", line 79, in run
+    self.retcode = self.core.wait_for_finish()
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/core/tankcore.py", line 326, in wait_for_finish
+    time.sleep(0.5 - diff)
+
+2024-07-16 12:45:36,883	Exception occurred:
+<class 'RuntimeError'>: Neither ammofile nor uris specified
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/core/tankworker.py", line 70, in run
+    self.core.plugins_configure()
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/core/tankcore.py", line 262, in plugins_configure
+    plugin.configure()
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/plugins/Phantom/plugin.py", line 67, in configure
+    self.phantom_config = self.phantom.config_file
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/plugins/Phantom/utils.py", line 106, in config_file
+    self._config_file = self.compose_config()
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/plugins/Phantom/utils.py", line 114, in compose_config
+    streams_config += stream.compose_config()
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/plugins/Phantom/utils.py", line 288, in compose_config
+    self.stepper_wrapper.prepare_stepper()
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/stepper/main.py", line 248, in prepare_stepper
+    self.stpd = self.__get_stpd_filename()
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/stepper/main.py", line 302, in __get_stpd_filename
+    raise RuntimeError("Neither ammofile nor uris specified")
+
+2024-07-16 12:46:02,142	Exception occurred:
+<class 'RuntimeError'>: Neither ammofile nor uris specified
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/core/tankworker.py", line 70, in run
+    self.core.plugins_configure()
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/core/tankcore.py", line 262, in plugins_configure
+    plugin.configure()
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/plugins/Phantom/plugin.py", line 67, in configure
+    self.phantom_config = self.phantom.config_file
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/plugins/Phantom/utils.py", line 106, in config_file
+    self._config_file = self.compose_config()
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/plugins/Phantom/utils.py", line 114, in compose_config
+    streams_config += stream.compose_config()
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/plugins/Phantom/utils.py", line 288, in compose_config
+    self.stepper_wrapper.prepare_stepper()
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/stepper/main.py", line 248, in prepare_stepper
+    self.stpd = self.__get_stpd_filename()
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/stepper/main.py", line 302, in __get_stpd_filename
+    raise RuntimeError("Neither ammofile nor uris specified")
+
+2024-07-16 12:46:17,896	Exception occurred:
+<class 'yandextank.stepper.module_exceptions.AmmoFileError'>: Unexpected end of file: read 313 bytes instead of 314
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/core/tankworker.py", line 70, in run
+    self.core.plugins_configure()
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/core/tankcore.py", line 262, in plugins_configure
+    plugin.configure()
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/plugins/Phantom/plugin.py", line 67, in configure
+    self.phantom_config = self.phantom.config_file
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/plugins/Phantom/utils.py", line 106, in config_file
+    self._config_file = self.compose_config()
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/plugins/Phantom/utils.py", line 114, in compose_config
+    streams_config += stream.compose_config()
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/plugins/Phantom/utils.py", line 288, in compose_config
+    self.stepper_wrapper.prepare_stepper()
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/stepper/main.py", line 264, in prepare_stepper
+    self.__make_stpd_file()
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/stepper/main.py", line 354, in __make_stpd_file
+    stepper.write(os)
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/stepper/main.py", line 64, in write
+    for missile in self.ammo:
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/stepper/format.py", line 18, in __iter__
+    for timestamp, marker, missile in self.af:
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/stepper/main.py", line 50, in <genexpr>
+    return ((timestamp, marker or self.marker(missile), missile)
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/stepper/main.py", line 44, in <genexpr>
+    ammo_stream = (
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/stepper/main.py", line 46, in <genexpr>
+    for ammo in ((missile, marker or self.marker(missile))
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/stepper/missile.py", line 132, in __iter__
+    raise AmmoFileError(
+
+2024-07-16 12:47:07,370	Data poller has been receiving no data for 31.0 seconds.
+Closing data poller
+2024-07-16 12:47:12,330	Interrupting
+2024-07-16 12:47:12,330	Test interrupted:
+<class 'KeyboardInterrupt'>: 
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/core/tankworker.py", line 79, in run
+    self.retcode = self.core.wait_for_finish()
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/core/tankcore.py", line 326, in wait_for_finish
+    time.sleep(0.5 - diff)
+
+2024-07-16 12:47:44,274	Interrupting
+2024-07-16 12:47:44,275	Test interrupted:
+<class 'KeyboardInterrupt'>: 
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/core/tankworker.py", line 79, in run
+    self.retcode = self.core.wait_for_finish()
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/core/tankcore.py", line 326, in wait_for_finish
+    time.sleep(0.5 - diff)
+
+2024-07-16 12:47:44,538	Exception occurred:
+<class 'KeyboardInterrupt'>: 
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/core/tankworker.py", line 80, in run
+    self._msgs.extend(self.core.errors)
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/common/util.py", line 849, in __exit__
+    retcode = self.worker.core.plugins_end_test(retcode)
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/core/tankcore.py", line 335, in plugins_end_test
+    retcode = self.job.aggregator.end_test(retcode)
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/aggregator/tank_aggregator.py", line 130, in end_test
+    self.drain.join()
+
+  File "/usr/lib/python3.8/threading.py", line 1011, in join
+    self._wait_for_tstate_lock()
+
+  File "/usr/lib/python3.8/threading.py", line 1027, in _wait_for_tstate_lock
+    elif lock.acquire(block, timeout):
+
+2024-07-16 12:49:48,222	Using phantom.port option is deprecated. Use phantom.address=[address]:port instead
+2024-07-16 12:50:00,409	Interrupting
+2024-07-16 12:50:00,410	Test interrupted:
+<class 'KeyboardInterrupt'>: 
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/core/tankworker.py", line 79, in run
+    self.retcode = self.core.wait_for_finish()
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/core/tankcore.py", line 326, in wait_for_finish
+    time.sleep(0.5 - diff)
+
+2024-07-16 12:50:38,002	Using phantom.port option is deprecated. Use phantom.address=[address]:port instead
+2024-07-16 12:50:45,585	Interrupting
+2024-07-16 12:50:45,587	Test interrupted:
+<class 'KeyboardInterrupt'>: 
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/core/tankworker.py", line 79, in run
+    self.retcode = self.core.wait_for_finish()
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/core/tankcore.py", line 326, in wait_for_finish
+    time.sleep(0.5 - diff)
+
+2024-07-16 12:50:49,771	Using phantom.port option is deprecated. Use phantom.address=[address]:port instead
+2024-07-16 12:50:56,200	Interrupting
+2024-07-16 12:50:56,201	Test interrupted:
+<class 'KeyboardInterrupt'>: 
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/core/tankworker.py", line 79, in run
+    self.retcode = self.core.wait_for_finish()
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/core/tankcore.py", line 326, in wait_for_finish
+    time.sleep(0.5 - diff)
+
+2024-07-16 12:51:19,410	Using phantom.port option is deprecated. Use phantom.address=[address]:port instead
+2024-07-16 12:52:14,233	Interrupting
+2024-07-16 12:52:14,241	Test interrupted:
+<class 'KeyboardInterrupt'>: 
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/core/tankworker.py", line 79, in run
+    self.retcode = self.core.wait_for_finish()
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/core/tankcore.py", line 308, in wait_for_finish
+    retcode = plugin.is_test_finished()
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/plugins/Console/plugin.py", line 87, in is_test_finished
+    self.__console_view = self.screen.render_screen().encode('utf-8')
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/plugins/Console/screen.py", line 416, in render_screen
+    left_lines = self.__render_left_panel()
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/plugins/Console/screen.py", line 369, in __render_left_panel
+    left_block.render()
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/plugins/Console/screen.py", line 559, in render
+    self.top.render(expected_width=expected_width)
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/plugins/Console/screen.py", line 560, in render
+    self.bottom.render(expected_width=expected_width)
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/plugins/Console/screen.py", line 526, in render
+    self.left.render(expected_width=expected_width)
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/plugins/Console/screen.py", line 695, in render
+    data = self.__calc_percentiles()
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/plugins/Console/screen.py", line 675, in __calc_percentiles
+    last_1m = last_1m.add(data, fill_value=0)
+
+  File "/usr/local/lib/python3.8/dist-packages/pandas/core/ops/__init__.py", line 165, in flex_wrapper
+    return self._binop(other, op, level=level, fill_value=fill_value)
+
+  File "/usr/local/lib/python3.8/dist-packages/pandas/core/series.py", line 2723, in _binop
+    this, other = self.align(other, level=level, join="outer", copy=False)
+
+  File "/usr/local/lib/python3.8/dist-packages/pandas/core/series.py", line 4220, in align
+    return super().align(
+
+  File "/usr/local/lib/python3.8/dist-packages/pandas/core/generic.py", line 8825, in align
+    return self._align_series(
+
+  File "/usr/local/lib/python3.8/dist-packages/pandas/core/generic.py", line 8938, in _align_series
+    left = self._reindex_indexer(join_index, lidx, copy)
+
+  File "/usr/local/lib/python3.8/dist-packages/pandas/core/series.py", line 4193, in _reindex_indexer
+    return self._constructor(new_values, index=new_index)
+
+  File "/usr/local/lib/python3.8/dist-packages/pandas/core/series.py", line 364, in __init__
+    data = sanitize_array(data, index, dtype, copy, raise_cast_failure=True)
+
+  File "/usr/local/lib/python3.8/dist-packages/pandas/core/construction.py", line 423, in sanitize_array
+    def sanitize_array(
+
+2024-07-16 12:53:19,554	Using phantom.port option is deprecated. Use phantom.address=[address]:port instead
+2024-07-16 12:55:07,624	Interrupting
+2024-07-16 12:55:07,625	Test interrupted:
+<class 'KeyboardInterrupt'>: 
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/core/tankworker.py", line 79, in run
+    self.retcode = self.core.wait_for_finish()
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/core/tankcore.py", line 326, in wait_for_finish
+    time.sleep(0.5 - diff)
+
+2024-07-16 12:55:50,747	Exception occurred:
+<class 'RuntimeError'>: Neither ammofile nor uris specified
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/core/tankworker.py", line 70, in run
+    self.core.plugins_configure()
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/core/tankcore.py", line 262, in plugins_configure
+    plugin.configure()
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/plugins/Phantom/plugin.py", line 67, in configure
+    self.phantom_config = self.phantom.config_file
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/plugins/Phantom/utils.py", line 106, in config_file
+    self._config_file = self.compose_config()
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/plugins/Phantom/utils.py", line 114, in compose_config
+    streams_config += stream.compose_config()
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/plugins/Phantom/utils.py", line 288, in compose_config
+    self.stepper_wrapper.prepare_stepper()
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/stepper/main.py", line 248, in prepare_stepper
+    self.stpd = self.__get_stpd_filename()
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/stepper/main.py", line 302, in __get_stpd_filename
+    raise RuntimeError("Neither ammofile nor uris specified")
+
+2024-07-16 12:56:11,377	Interrupting
+2024-07-16 12:56:11,378	Test interrupted:
+<class 'KeyboardInterrupt'>: 
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/core/tankworker.py", line 79, in run
+    self.retcode = self.core.wait_for_finish()
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/core/tankcore.py", line 326, in wait_for_finish
+    time.sleep(0.5 - diff)
+
+2024-07-16 13:12:00,157	Exception occurred:
+<class 'yandextank.stepper.module_exceptions.AmmoFileError'>: Error while reading ammo file. Position: 508, header: 'b'eport/WebApi/PartnerApi/GetBookings?ProviderId=10&LastModifiedMillisecondsFrom=1230757200000&LastModifiedMillisecondsTo=1262293200000&WithoutDate=True&limit=1001 HTTP/1.1'', original exception: invalid literal for int() with base 10: b'eport/WebApi/PartnerApi/GetBookings?ProviderId=10&LastModifiedMillisecondsFrom=1230757200000&LastModifiedMillisecondsTo=1262293200000&WithoutDate=True&limit=1001'
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/core/tankworker.py", line 70, in run
+    self.core.plugins_configure()
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/core/tankcore.py", line 262, in plugins_configure
+    plugin.configure()
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/plugins/Phantom/plugin.py", line 67, in configure
+    self.phantom_config = self.phantom.config_file
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/plugins/Phantom/utils.py", line 106, in config_file
+    self._config_file = self.compose_config()
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/plugins/Phantom/utils.py", line 114, in compose_config
+    streams_config += stream.compose_config()
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/plugins/Phantom/utils.py", line 288, in compose_config
+    self.stepper_wrapper.prepare_stepper()
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/stepper/main.py", line 264, in prepare_stepper
+    self.__make_stpd_file()
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/stepper/main.py", line 354, in __make_stpd_file
+    stepper.write(os)
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/stepper/main.py", line 64, in write
+    for missile in self.ammo:
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/stepper/format.py", line 18, in __iter__
+    for timestamp, marker, missile in self.af:
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/stepper/main.py", line 50, in <genexpr>
+    return ((timestamp, marker or self.marker(missile), missile)
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/stepper/main.py", line 44, in <genexpr>
+    ammo_stream = (
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/stepper/main.py", line 46, in <genexpr>
+    for ammo in ((missile, marker or self.marker(missile))
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/stepper/missile.py", line 137, in __iter__
+    raise AmmoFileError(
+
+2024-07-16 13:13:09,669	Interrupting
+2024-07-16 13:13:09,669	Test interrupted:
+<class 'KeyboardInterrupt'>: 
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/core/tankworker.py", line 79, in run
+    self.retcode = self.core.wait_for_finish()
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/core/tankcore.py", line 326, in wait_for_finish
+    time.sleep(0.5 - diff)
+
+2024-07-16 13:14:06,038	Interrupting
+2024-07-16 13:14:06,040	Test interrupted:
+<class 'KeyboardInterrupt'>: 
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/core/tankworker.py", line 79, in run
+    self.retcode = self.core.wait_for_finish()
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/core/tankcore.py", line 326, in wait_for_finish
+    time.sleep(0.5 - diff)
+
+2024-07-16 13:14:33,668	Interrupting
+2024-07-16 13:14:33,669	Test interrupted:
+<class 'KeyboardInterrupt'>: 
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/core/tankworker.py", line 79, in run
+    self.retcode = self.core.wait_for_finish()
+
+  File "/usr/local/lib/python3.8/dist-packages/yandextank/core/tankcore.py", line 326, in wait_for_finish
+    time.sleep(0.5 - diff)
+
